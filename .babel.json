@@ -1,0 +1,3267 @@
+{
+  "{\"filename\":\"/home/ubuntu/server.js\",\"env\":{},\"retainLines\":false,\"highlightCode\":true,\"suppressDeprecationMessages\":false,\"presets\":[],\"plugins\":[[[],{\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}]],\"ignore\":[],\"code\":true,\"metadata\":true,\"ast\":true,\"comments\":true,\"compact\":\"auto\",\"minified\":false,\"sourceRoot\":\"/home/ubuntu\",\"babelrc\":true,\"sourceType\":\"module\",\"moduleIds\":false,\"passPerPreset\":false,\"parserOpts\":false,\"generatorOpts\":false}:6.26.0": {
+    "metadata": {
+      "usedHelpers": [
+        "interopRequireDefault"
+      ],
+      "marked": [],
+      "modules": {
+        "imports": [
+          {
+            "source": "express",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "express"
+              }
+            ]
+          },
+          {
+            "source": "body-parser",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "bodyParser"
+              }
+            ]
+          },
+          {
+            "source": "react",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "React"
+              }
+            ]
+          },
+          {
+            "source": "path",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "path"
+              }
+            ]
+          }
+        ],
+        "exports": {
+          "exported": [],
+          "specifiers": []
+        }
+      }
+    },
+    "options": {
+      "filename": "/home/ubuntu/server.js",
+      "filenameRelative": "/home/ubuntu/server.js",
+      "env": {},
+      "retainLines": false,
+      "highlightCode": true,
+      "suppressDeprecationMessages": false,
+      "presets": [],
+      "plugins": [
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ]
+      ],
+      "ignore": [],
+      "code": true,
+      "metadata": true,
+      "ast": false,
+      "comments": true,
+      "compact": "auto",
+      "minified": false,
+      "sourceMaps": "both",
+      "sourceMapTarget": "server.js",
+      "sourceFileName": "server.js",
+      "sourceRoot": "/home/ubuntu",
+      "babelrc": false,
+      "sourceType": "module",
+      "moduleRoot": "/home/ubuntu",
+      "moduleIds": false,
+      "passPerPreset": false,
+      "parserOpts": false,
+      "generatorOpts": false,
+      "basename": "server"
+    },
+    "ignored": false,
+    "code": "'use strict';\n\nvar _express = require('express');\n\nvar _express2 = _interopRequireDefault(_express);\n\nvar _bodyParser = require('body-parser');\n\nvar _bodyParser2 = _interopRequireDefault(_bodyParser);\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _path = require('path');\n\nvar _path2 = _interopRequireDefault(_path);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nvar app = (0, _express2.default)();\n//import doc from './index.html';\n\n\nvar port = 8888;\n\napp.use('/', function (req, res) {\n  console.log('someone showed');\n  res.sendFile(_path2.default.join(__dirname + '/index.html'));\n});\n\napp.listen(port, function () {\n  console.log('We are live on ' + port);\n});\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNlcnZlci5qcyJdLCJuYW1lcyI6WyJhcHAiLCJwb3J0IiwidXNlIiwicmVxIiwicmVzIiwiY29uc29sZSIsImxvZyIsInNlbmRGaWxlIiwiam9pbiIsIl9fZGlybmFtZSIsImxpc3RlbiJdLCJtYXBwaW5ncyI6Ijs7QUFBQTs7OztBQUNBOzs7O0FBQ0E7Ozs7QUFFQTs7Ozs7O0FBRUEsSUFBSUEsTUFBTSx3QkFBVjtBQUhBOzs7QUFLQSxJQUFNQyxPQUFPLElBQWI7O0FBRUFELElBQUlFLEdBQUosQ0FBUSxHQUFSLEVBQVksVUFBQ0MsR0FBRCxFQUFNQyxHQUFOLEVBQWU7QUFDekJDLFVBQVFDLEdBQVIsQ0FBWSxnQkFBWjtBQUNBRixNQUFJRyxRQUFKLENBQWEsZUFBS0MsSUFBTCxDQUFVQyxZQUFZLGFBQXRCLENBQWI7QUFDRCxDQUhEOztBQUtBVCxJQUFJVSxNQUFKLENBQVdULElBQVgsRUFBaUIsWUFBTTtBQUNwQkksVUFBUUMsR0FBUixDQUFZLG9CQUFvQkwsSUFBaEM7QUFDRixDQUZEIiwiZmlsZSI6InNlcnZlci5qcyIsInNvdXJjZVJvb3QiOiIvaG9tZS91YnVudHUiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgZXhwcmVzcyBmcm9tICdleHByZXNzJztcbmltcG9ydCBib2R5UGFyc2VyIGZyb20gJ2JvZHktcGFyc2VyJztcbmltcG9ydCBSZWFjdCBmcm9tICdyZWFjdCc7XG4vL2ltcG9ydCBkb2MgZnJvbSAnLi9pbmRleC5odG1sJztcbmltcG9ydCBwYXRoIGZyb20gJ3BhdGgnO1xuXG5sZXQgYXBwID0gZXhwcmVzcygpO1xuXG5jb25zdCBwb3J0ID0gODg4ODtcblxuYXBwLnVzZSgnLycsKHJlcSwgcmVzKSAgPT4ge1xuICBjb25zb2xlLmxvZygnc29tZW9uZSBzaG93ZWQnKTtcbiAgcmVzLnNlbmRGaWxlKHBhdGguam9pbihfX2Rpcm5hbWUgKyAnL2luZGV4Lmh0bWwnKSk7XG59KTtcblxuYXBwLmxpc3Rlbihwb3J0LCAoKSA9PiB7XG4gICBjb25zb2xlLmxvZygnV2UgYXJlIGxpdmUgb24gJyArIHBvcnQpO1xufSk7XG4iXX0=",
+    "ast": null,
+    "map": {
+      "version": 3,
+      "sources": [
+        "server.js"
+      ],
+      "names": [
+        "app",
+        "port",
+        "use",
+        "req",
+        "res",
+        "console",
+        "log",
+        "sendFile",
+        "join",
+        "__dirname",
+        "listen"
+      ],
+      "mappings": ";;AAAA;;;;AACA;;;;AACA;;;;AAEA;;;;;;AAEA,IAAIA,MAAM,wBAAV;AAHA;;;AAKA,IAAMC,OAAO,IAAb;;AAEAD,IAAIE,GAAJ,CAAQ,GAAR,EAAY,UAACC,GAAD,EAAMC,GAAN,EAAe;AACzBC,UAAQC,GAAR,CAAY,gBAAZ;AACAF,MAAIG,QAAJ,CAAa,eAAKC,IAAL,CAAUC,YAAY,aAAtB,CAAb;AACD,CAHD;;AAKAT,IAAIU,MAAJ,CAAWT,IAAX,EAAiB,YAAM;AACpBI,UAAQC,GAAR,CAAY,oBAAoBL,IAAhC;AACF,CAFD",
+      "file": "server.js",
+      "sourceRoot": "/home/ubuntu",
+      "sourcesContent": [
+        "import express from 'express';\nimport bodyParser from 'body-parser';\nimport React from 'react';\n//import doc from './index.html';\nimport path from 'path';\n\nlet app = express();\n\nconst port = 8888;\n\napp.use('/',(req, res)  => {\n  console.log('someone showed');\n  res.sendFile(path.join(__dirname + '/index.html'));\n});\n\napp.listen(port, () => {\n   console.log('We are live on ' + port);\n});\n"
+      ]
+    },
+    "mtime": 1515741395864
+  },
+  "{\"filename\":\"/home/ubuntu/server.js\",\"env\":{\"development\":{\"plugins\":[]}},\"retainLines\":false,\"highlightCode\":true,\"suppressDeprecationMessages\":false,\"presets\":[],\"plugins\":[[[],null],[[],null],[[],null],[[],null],[[],{\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}]],\"ignore\":[],\"code\":true,\"metadata\":true,\"ast\":true,\"comments\":true,\"compact\":\"auto\",\"minified\":false,\"sourceRoot\":\"/home/ubuntu\",\"babelrc\":true,\"sourceType\":\"module\",\"moduleIds\":false,\"passPerPreset\":false,\"parserOpts\":false,\"generatorOpts\":false}:6.26.0": {
+    "metadata": {
+      "usedHelpers": [
+        "interopRequireDefault"
+      ],
+      "marked": [],
+      "modules": {
+        "imports": [
+          {
+            "source": "express",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "express"
+              }
+            ]
+          },
+          {
+            "source": "body-parser",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "bodyParser"
+              }
+            ]
+          },
+          {
+            "source": "react",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "React"
+              }
+            ]
+          },
+          {
+            "source": "path",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "path"
+              }
+            ]
+          },
+          {
+            "source": "webpack",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "webpack"
+              }
+            ]
+          },
+          {
+            "source": "helmet",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "helmet"
+              }
+            ]
+          },
+          {
+            "source": "./svgdemo/app",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "svg"
+              }
+            ]
+          }
+        ],
+        "exports": {
+          "exported": [],
+          "specifiers": []
+        }
+      }
+    },
+    "options": {
+      "filename": "/home/ubuntu/server.js",
+      "filenameRelative": "/home/ubuntu/server.js",
+      "env": {},
+      "retainLines": false,
+      "highlightCode": true,
+      "suppressDeprecationMessages": false,
+      "presets": [],
+      "plugins": [
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ]
+      ],
+      "ignore": [],
+      "code": true,
+      "metadata": true,
+      "ast": false,
+      "comments": true,
+      "compact": "auto",
+      "minified": false,
+      "sourceMaps": "both",
+      "sourceMapTarget": "server.js",
+      "sourceFileName": "server.js",
+      "sourceRoot": "/home/ubuntu",
+      "babelrc": false,
+      "sourceType": "module",
+      "moduleRoot": "/home/ubuntu",
+      "moduleIds": false,
+      "passPerPreset": false,
+      "parserOpts": false,
+      "generatorOpts": false,
+      "basename": "server"
+    },
+    "ignored": false,
+    "code": "'use strict';\n\nvar _express = require('express');\n\nvar _express2 = _interopRequireDefault(_express);\n\nvar _bodyParser = require('body-parser');\n\nvar _bodyParser2 = _interopRequireDefault(_bodyParser);\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _path = require('path');\n\nvar _path2 = _interopRequireDefault(_path);\n\nvar _webpack = require('webpack');\n\nvar _webpack2 = _interopRequireDefault(_webpack);\n\nvar _helmet = require('helmet');\n\nvar _helmet2 = _interopRequireDefault(_helmet);\n\nvar _app = require('./svgdemo/app');\n\nvar _app2 = _interopRequireDefault(_app);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nvar BUILD_DIR = _path2.default.join(__dirname, '/src/frontend/public/');\nvar app = (0, _express2.default)();\n\nvar port = 8888;\n\napp.use((0, _helmet2.default)());\n\napp.get('/index.html', function (req, res) {\n  res.redirect('/');\n});\n\napp.use(_express2.default.static(BUILD_DIR));\n\napp.get('/', function (req, res) {\n  console.log('someone showed');\n  res.sendFile(_path2.default.join(BUILD_DIR, 'index.html'));\n});\n\napp.get('/api/:who', function (req, res) {\n  res.send('you made it to ' + req.params.who);\n});\n\napp.get('/resource/resume', function (req, res) {\n  res.sendFile(_path2.default.join(__dirname, '/Resume/resume-base.pdf'));\n});\n\napp.use(function (req, res) {\n  res.sendFile(_path2.default.join(BUILD_DIR, 'index.html'));\n});\n\napp.listen(port, function (error) {\n  if (error) {\n    console.log(error);\n  } else {\n    console.log('We are live on ' + port);\n  }\n});\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNlcnZlci5qcyJdLCJuYW1lcyI6WyJCVUlMRF9ESVIiLCJqb2luIiwiX19kaXJuYW1lIiwiYXBwIiwicG9ydCIsInVzZSIsImdldCIsInJlcSIsInJlcyIsInJlZGlyZWN0Iiwic3RhdGljIiwiY29uc29sZSIsImxvZyIsInNlbmRGaWxlIiwic2VuZCIsInBhcmFtcyIsIndobyIsImxpc3RlbiIsImVycm9yIl0sIm1hcHBpbmdzIjoiOztBQUFBOzs7O0FBQ0E7Ozs7QUFDQTs7OztBQUNBOzs7O0FBQ0E7Ozs7QUFDQTs7OztBQUVBOzs7Ozs7QUFHQSxJQUFJQSxZQUFZLGVBQUtDLElBQUwsQ0FBVUMsU0FBVixFQUFxQix1QkFBckIsQ0FBaEI7QUFDQSxJQUFJQyxNQUFNLHdCQUFWOztBQUVBLElBQU1DLE9BQU8sSUFBYjs7QUFFQUQsSUFBSUUsR0FBSixDQUFRLHVCQUFSOztBQUVBRixJQUFJRyxHQUFKLENBQVEsYUFBUixFQUF1QixVQUFDQyxHQUFELEVBQU1DLEdBQU4sRUFBYztBQUNuQ0EsTUFBSUMsUUFBSixDQUFhLEdBQWI7QUFDRCxDQUZEOztBQUlBTixJQUFJRSxHQUFKLENBQVEsa0JBQVFLLE1BQVIsQ0FBZVYsU0FBZixDQUFSOztBQUVBRyxJQUFJRyxHQUFKLENBQVEsR0FBUixFQUFhLFVBQUNDLEdBQUQsRUFBTUMsR0FBTixFQUFjO0FBQ3pCRyxVQUFRQyxHQUFSLENBQVksZ0JBQVo7QUFDQUosTUFBSUssUUFBSixDQUFhLGVBQUtaLElBQUwsQ0FBVUQsU0FBVixFQUFxQixZQUFyQixDQUFiO0FBQ0QsQ0FIRDs7QUFLQUcsSUFBSUcsR0FBSixDQUFRLFdBQVIsRUFBcUIsVUFBQ0MsR0FBRCxFQUFNQyxHQUFOLEVBQWM7QUFDakNBLE1BQUlNLElBQUosQ0FBUyxvQkFBb0JQLElBQUlRLE1BQUosQ0FBV0MsR0FBeEM7QUFDRCxDQUZEOztBQUlBYixJQUFJRyxHQUFKLENBQVEsa0JBQVIsRUFBNEIsVUFBQ0MsR0FBRCxFQUFNQyxHQUFOLEVBQWM7QUFDeENBLE1BQUlLLFFBQUosQ0FBYSxlQUFLWixJQUFMLENBQVVDLFNBQVYsRUFBcUIseUJBQXJCLENBQWI7QUFDRCxDQUZEOztBQUlBQyxJQUFJRSxHQUFKLENBQVEsVUFBQ0UsR0FBRCxFQUFNQyxHQUFOLEVBQWM7QUFDcEJBLE1BQUlLLFFBQUosQ0FBYSxlQUFLWixJQUFMLENBQVVELFNBQVYsRUFBcUIsWUFBckIsQ0FBYjtBQUNELENBRkQ7O0FBSUFHLElBQUljLE1BQUosQ0FBV2IsSUFBWCxFQUFpQixVQUFDYyxLQUFELEVBQVc7QUFDMUIsTUFBR0EsS0FBSCxFQUFTO0FBQ1BQLFlBQVFDLEdBQVIsQ0FBWU0sS0FBWjtBQUNELEdBRkQsTUFHSTtBQUNIUCxZQUFRQyxHQUFSLENBQVksb0JBQW9CUixJQUFoQztBQUNBO0FBQ0YsQ0FQRCIsImZpbGUiOiJzZXJ2ZXIuanMiLCJzb3VyY2VSb290IjoiL2hvbWUvdWJ1bnR1Iiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IGV4cHJlc3MgZnJvbSAnZXhwcmVzcyc7XG5pbXBvcnQgYm9keVBhcnNlciBmcm9tICdib2R5LXBhcnNlcic7XG5pbXBvcnQgUmVhY3QgZnJvbSAncmVhY3QnO1xuaW1wb3J0IHBhdGggZnJvbSAncGF0aCc7XG5pbXBvcnQgd2VicGFjayBmcm9tICd3ZWJwYWNrJztcbmltcG9ydCBoZWxtZXQgZnJvbSAnaGVsbWV0JztcblxuaW1wb3J0IHN2ZyBmcm9tICcuL3N2Z2RlbW8vYXBwJztcblxuXG52YXIgQlVJTERfRElSID0gcGF0aC5qb2luKF9fZGlybmFtZSwgJy9zcmMvZnJvbnRlbmQvcHVibGljLycpO1xubGV0IGFwcCA9IGV4cHJlc3MoKTtcblxuY29uc3QgcG9ydCA9IDg4ODg7XG5cbmFwcC51c2UoaGVsbWV0KCkpO1xuXG5hcHAuZ2V0KCcvaW5kZXguaHRtbCcsIChyZXEsIHJlcykgPT4ge1xuICByZXMucmVkaXJlY3QoJy8nKTtcbn0pO1xuXG5hcHAudXNlKGV4cHJlc3Muc3RhdGljKEJVSUxEX0RJUikpO1xuXG5hcHAuZ2V0KCcvJywgKHJlcSwgcmVzKSA9PiB7XG4gIGNvbnNvbGUubG9nKCdzb21lb25lIHNob3dlZCcpO1xuICByZXMuc2VuZEZpbGUocGF0aC5qb2luKEJVSUxEX0RJUiwgJ2luZGV4Lmh0bWwnKSk7XG59KTtcbiBcbmFwcC5nZXQoJy9hcGkvOndobycsIChyZXEsIHJlcykgPT4ge1xuICByZXMuc2VuZCgneW91IG1hZGUgaXQgdG8gJyArIHJlcS5wYXJhbXMud2hvKTtcbn0pO1xuXG5hcHAuZ2V0KCcvcmVzb3VyY2UvcmVzdW1lJywgKHJlcSwgcmVzKSA9PiB7XG4gIHJlcy5zZW5kRmlsZShwYXRoLmpvaW4oX19kaXJuYW1lLCAnL1Jlc3VtZS9yZXN1bWUtYmFzZS5wZGYnKSk7XG59KTtcblxuYXBwLnVzZSgocmVxLCByZXMpID0+IHtcbiAgcmVzLnNlbmRGaWxlKHBhdGguam9pbihCVUlMRF9ESVIsICdpbmRleC5odG1sJykpO1xufSk7XG5cbmFwcC5saXN0ZW4ocG9ydCwgKGVycm9yKSA9PiB7XG4gIGlmKGVycm9yKXtcbiAgICBjb25zb2xlLmxvZyhlcnJvcik7XG4gIH1cbiAgZWxzZXtcbiAgIGNvbnNvbGUubG9nKCdXZSBhcmUgbGl2ZSBvbiAnICsgcG9ydCk7XG4gIH1cbn0pO1xuIl19",
+    "ast": null,
+    "map": {
+      "version": 3,
+      "sources": [
+        "server.js"
+      ],
+      "names": [
+        "BUILD_DIR",
+        "join",
+        "__dirname",
+        "app",
+        "port",
+        "use",
+        "get",
+        "req",
+        "res",
+        "redirect",
+        "static",
+        "console",
+        "log",
+        "sendFile",
+        "send",
+        "params",
+        "who",
+        "listen",
+        "error"
+      ],
+      "mappings": ";;AAAA;;;;AACA;;;;AACA;;;;AACA;;;;AACA;;;;AACA;;;;AAEA;;;;;;AAGA,IAAIA,YAAY,eAAKC,IAAL,CAAUC,SAAV,EAAqB,uBAArB,CAAhB;AACA,IAAIC,MAAM,wBAAV;;AAEA,IAAMC,OAAO,IAAb;;AAEAD,IAAIE,GAAJ,CAAQ,uBAAR;;AAEAF,IAAIG,GAAJ,CAAQ,aAAR,EAAuB,UAACC,GAAD,EAAMC,GAAN,EAAc;AACnCA,MAAIC,QAAJ,CAAa,GAAb;AACD,CAFD;;AAIAN,IAAIE,GAAJ,CAAQ,kBAAQK,MAAR,CAAeV,SAAf,CAAR;;AAEAG,IAAIG,GAAJ,CAAQ,GAAR,EAAa,UAACC,GAAD,EAAMC,GAAN,EAAc;AACzBG,UAAQC,GAAR,CAAY,gBAAZ;AACAJ,MAAIK,QAAJ,CAAa,eAAKZ,IAAL,CAAUD,SAAV,EAAqB,YAArB,CAAb;AACD,CAHD;;AAKAG,IAAIG,GAAJ,CAAQ,WAAR,EAAqB,UAACC,GAAD,EAAMC,GAAN,EAAc;AACjCA,MAAIM,IAAJ,CAAS,oBAAoBP,IAAIQ,MAAJ,CAAWC,GAAxC;AACD,CAFD;;AAIAb,IAAIG,GAAJ,CAAQ,kBAAR,EAA4B,UAACC,GAAD,EAAMC,GAAN,EAAc;AACxCA,MAAIK,QAAJ,CAAa,eAAKZ,IAAL,CAAUC,SAAV,EAAqB,yBAArB,CAAb;AACD,CAFD;;AAIAC,IAAIE,GAAJ,CAAQ,UAACE,GAAD,EAAMC,GAAN,EAAc;AACpBA,MAAIK,QAAJ,CAAa,eAAKZ,IAAL,CAAUD,SAAV,EAAqB,YAArB,CAAb;AACD,CAFD;;AAIAG,IAAIc,MAAJ,CAAWb,IAAX,EAAiB,UAACc,KAAD,EAAW;AAC1B,MAAGA,KAAH,EAAS;AACPP,YAAQC,GAAR,CAAYM,KAAZ;AACD,GAFD,MAGI;AACHP,YAAQC,GAAR,CAAY,oBAAoBR,IAAhC;AACA;AACF,CAPD",
+      "file": "server.js",
+      "sourceRoot": "/home/ubuntu",
+      "sourcesContent": [
+        "import express from 'express';\nimport bodyParser from 'body-parser';\nimport React from 'react';\nimport path from 'path';\nimport webpack from 'webpack';\nimport helmet from 'helmet';\n\nimport svg from './svgdemo/app';\n\n\nvar BUILD_DIR = path.join(__dirname, '/src/frontend/public/');\nlet app = express();\n\nconst port = 8888;\n\napp.use(helmet());\n\napp.get('/index.html', (req, res) => {\n  res.redirect('/');\n});\n\napp.use(express.static(BUILD_DIR));\n\napp.get('/', (req, res) => {\n  console.log('someone showed');\n  res.sendFile(path.join(BUILD_DIR, 'index.html'));\n});\n \napp.get('/api/:who', (req, res) => {\n  res.send('you made it to ' + req.params.who);\n});\n\napp.get('/resource/resume', (req, res) => {\n  res.sendFile(path.join(__dirname, '/Resume/resume-base.pdf'));\n});\n\napp.use((req, res) => {\n  res.sendFile(path.join(BUILD_DIR, 'index.html'));\n});\n\napp.listen(port, (error) => {\n  if(error){\n    console.log(error);\n  }\n  else{\n   console.log('We are live on ' + port);\n  }\n});\n"
+      ]
+    },
+    "mtime": 1519197302636
+  },
+  "{\"filename\":\"/home/ubuntu/svgdemo/app.js\",\"env\":{\"development\":{\"plugins\":[]}},\"retainLines\":false,\"highlightCode\":true,\"suppressDeprecationMessages\":false,\"presets\":[],\"plugins\":[[[],null],[[],null],[[],null],[[],null],[[],{\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}]],\"ignore\":[],\"code\":true,\"metadata\":true,\"ast\":true,\"comments\":true,\"compact\":\"auto\",\"minified\":false,\"sourceRoot\":\"/home/ubuntu/svgdemo\",\"babelrc\":true,\"sourceType\":\"module\",\"moduleIds\":false,\"passPerPreset\":false,\"parserOpts\":false,\"generatorOpts\":false}:6.26.0": {
+    "metadata": {
+      "usedHelpers": [],
+      "marked": [],
+      "modules": {
+        "imports": [],
+        "exports": {
+          "exported": [],
+          "specifiers": []
+        }
+      }
+    },
+    "options": {
+      "filename": "/home/ubuntu/svgdemo/app.js",
+      "filenameRelative": "/home/ubuntu/svgdemo/app.js",
+      "env": {},
+      "retainLines": false,
+      "highlightCode": true,
+      "suppressDeprecationMessages": false,
+      "presets": [],
+      "plugins": [
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ]
+      ],
+      "ignore": [],
+      "code": true,
+      "metadata": true,
+      "ast": false,
+      "comments": true,
+      "compact": "auto",
+      "minified": false,
+      "sourceMaps": "both",
+      "sourceMapTarget": "app.js",
+      "sourceFileName": "app.js",
+      "sourceRoot": "/home/ubuntu/svgdemo",
+      "babelrc": false,
+      "sourceType": "module",
+      "moduleRoot": "/home/ubuntu/svgdemo",
+      "moduleIds": false,
+      "passPerPreset": false,
+      "parserOpts": false,
+      "generatorOpts": false,
+      "basename": "app"
+    },
+    "ignored": false,
+    "code": "\"use strict\";\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJhcHAuanMiLCJzb3VyY2VSb290IjoiL2hvbWUvdWJ1bnR1L3N2Z2RlbW8iLCJzb3VyY2VzQ29udGVudCI6W119",
+    "ast": null,
+    "map": {
+      "version": 3,
+      "sources": [],
+      "names": [],
+      "mappings": "",
+      "file": "app.js",
+      "sourceRoot": "/home/ubuntu/svgdemo",
+      "sourcesContent": []
+    },
+    "mtime": 1516232913788
+  },
+  "{\"filename\":\"/home/ubuntu/server.js\",\"env\":{\"development\":{\"plugins\":[]}},\"retainLines\":false,\"highlightCode\":true,\"suppressDeprecationMessages\":false,\"presets\":[],\"plugins\":[[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],{\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}]],\"ignore\":[],\"code\":true,\"metadata\":true,\"ast\":true,\"comments\":true,\"compact\":\"auto\",\"minified\":false,\"sourceRoot\":\"/home/ubuntu\",\"babelrc\":true,\"sourceType\":\"module\",\"moduleIds\":false,\"passPerPreset\":false,\"parserOpts\":false,\"generatorOpts\":false}:6.26.0": {
+    "metadata": {
+      "usedHelpers": [
+        "interopRequireDefault"
+      ],
+      "marked": [],
+      "modules": {
+        "imports": [
+          {
+            "source": "express",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "express"
+              }
+            ]
+          },
+          {
+            "source": "body-parser",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "bodyParser"
+              }
+            ]
+          },
+          {
+            "source": "react",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "React"
+              }
+            ]
+          },
+          {
+            "source": "path",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "path"
+              }
+            ]
+          },
+          {
+            "source": "webpack",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "webpack"
+              }
+            ]
+          },
+          {
+            "source": "helmet",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "helmet"
+              }
+            ]
+          },
+          {
+            "source": "./svgdemo/app",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "svg"
+              }
+            ]
+          }
+        ],
+        "exports": {
+          "exported": [],
+          "specifiers": []
+        }
+      }
+    },
+    "options": {
+      "filename": "/home/ubuntu/server.js",
+      "filenameRelative": "/home/ubuntu/server.js",
+      "env": {},
+      "retainLines": false,
+      "highlightCode": true,
+      "suppressDeprecationMessages": false,
+      "presets": [],
+      "plugins": [
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ]
+      ],
+      "ignore": [],
+      "code": true,
+      "metadata": true,
+      "ast": false,
+      "comments": true,
+      "compact": "auto",
+      "minified": false,
+      "sourceMaps": "both",
+      "sourceMapTarget": "server.js",
+      "sourceFileName": "server.js",
+      "sourceRoot": "/home/ubuntu",
+      "babelrc": false,
+      "sourceType": "module",
+      "moduleRoot": "/home/ubuntu",
+      "moduleIds": false,
+      "passPerPreset": false,
+      "parserOpts": false,
+      "generatorOpts": false,
+      "basename": "server"
+    },
+    "ignored": false,
+    "code": "'use strict';\n\nvar _express = require('express');\n\nvar _express2 = _interopRequireDefault(_express);\n\nvar _bodyParser = require('body-parser');\n\nvar _bodyParser2 = _interopRequireDefault(_bodyParser);\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _path = require('path');\n\nvar _path2 = _interopRequireDefault(_path);\n\nvar _webpack = require('webpack');\n\nvar _webpack2 = _interopRequireDefault(_webpack);\n\nvar _helmet = require('helmet');\n\nvar _helmet2 = _interopRequireDefault(_helmet);\n\nvar _app = require('./svgdemo/app');\n\nvar _app2 = _interopRequireDefault(_app);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nvar BUILD_DIR = _path2.default.join(__dirname, '/src/frontend/public/');\nvar app = (0, _express2.default)();\n\nvar port = 8888;\n\n//app.use(helmet());\n\napp.get('/index.html', function (req, res) {\n  res.redirect('/');\n});\n\napp.use(_express2.default.static(_path2.default.join(BUILD_DIR)));\n\napp.use('/*/js/bundle.js', function (req, res) {\n  res.sendFile(_path2.default.join(BUILD_DIR, 'js/bundle.js'));\n});\n\napp.get('/fayeboo', function (req, res) {\n  res.sendFile(_path2.default.join(__dirname, '/Fayeboo/app/build/index.html'));\n});\n\napp.use('/fayeboo/static', _express2.default.static(_path2.default.join(__dirname, '/Fayeboo/app/build/static')));\n\napp.get('/pendulum', function (req, res) {\n  res.sendFile(_path2.default.join(__dirname, '/pendulum/processing.html'));\n});\n\napp.get('/processing.js', function (req, res) {\n  res.sendFile(_path2.default.join(__dirname, '/pendulum/processing.js'));\n});\n\napp.get('/pendulum.js', function (req, res) {\n  res.sendFile(_path2.default.join(__dirname, '/pendulum/pendulum.js'));\n});\n\napp.get('/', function (req, res) {\n  console.log('someone showed');\n  res.sendFile(_path2.default.join(BUILD_DIR, 'index.html'));\n});\n\napp.get('/api/:who', function (req, res) {\n  res.send('you made it to ' + req.params.who);\n});\n\napp.get('/resources/resume', function (req, res) {\n  res.sendFile(_path2.default.join(__dirname, '/Resume/resume-base.pdf'));\n});\n\napp.get('/resources/socket.io.js', function (req, res) {\n  res.sendFile(_path2.default.join(__dirname, '/chatbox/node_modules/socket.io-client/dist/socket.io.js'));\n});\n\napp.use(function (req, res) {\n  console.log('default');\n  res.sendFile(_path2.default.join(BUILD_DIR, 'index.html'));\n});\n\napp.listen(port, function (error) {\n  if (error) {\n    console.log(error);\n  } else {\n    console.log('We are live on ' + port);\n  }\n});\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNlcnZlci5qcyJdLCJuYW1lcyI6WyJCVUlMRF9ESVIiLCJqb2luIiwiX19kaXJuYW1lIiwiYXBwIiwicG9ydCIsImdldCIsInJlcSIsInJlcyIsInJlZGlyZWN0IiwidXNlIiwic3RhdGljIiwic2VuZEZpbGUiLCJjb25zb2xlIiwibG9nIiwic2VuZCIsInBhcmFtcyIsIndobyIsImxpc3RlbiIsImVycm9yIl0sIm1hcHBpbmdzIjoiOztBQUFBOzs7O0FBQ0E7Ozs7QUFDQTs7OztBQUNBOzs7O0FBQ0E7Ozs7QUFDQTs7OztBQUVBOzs7Ozs7QUFHQSxJQUFJQSxZQUFZLGVBQUtDLElBQUwsQ0FBVUMsU0FBVixFQUFxQix1QkFBckIsQ0FBaEI7QUFDQSxJQUFJQyxNQUFNLHdCQUFWOztBQUVBLElBQU1DLE9BQU8sSUFBYjs7QUFFQTs7QUFFQUQsSUFBSUUsR0FBSixDQUFRLGFBQVIsRUFBdUIsVUFBQ0MsR0FBRCxFQUFNQyxHQUFOLEVBQWM7QUFDbkNBLE1BQUlDLFFBQUosQ0FBYSxHQUFiO0FBQ0QsQ0FGRDs7QUFJQUwsSUFBSU0sR0FBSixDQUFTLGtCQUFRQyxNQUFSLENBQWUsZUFBS1QsSUFBTCxDQUFVRCxTQUFWLENBQWYsQ0FBVDs7QUFFQUcsSUFBSU0sR0FBSixDQUFRLGlCQUFSLEVBQTJCLFVBQUNILEdBQUQsRUFBS0MsR0FBTCxFQUFhO0FBQ3RDQSxNQUFJSSxRQUFKLENBQWEsZUFBS1YsSUFBTCxDQUFVRCxTQUFWLEVBQXFCLGNBQXJCLENBQWI7QUFDRCxDQUZEOztBQUlBRyxJQUFJRSxHQUFKLENBQVEsVUFBUixFQUFvQixVQUFDQyxHQUFELEVBQU1DLEdBQU4sRUFBYztBQUNoQ0EsTUFBSUksUUFBSixDQUFhLGVBQUtWLElBQUwsQ0FBVUMsU0FBVixFQUFxQiwrQkFBckIsQ0FBYjtBQUNELENBRkQ7O0FBSUFDLElBQUlNLEdBQUosQ0FBUSxpQkFBUixFQUEwQixrQkFBUUMsTUFBUixDQUFlLGVBQUtULElBQUwsQ0FBVUMsU0FBVixFQUFxQiwyQkFBckIsQ0FBZixDQUExQjs7QUFFQUMsSUFBSUUsR0FBSixDQUFRLFdBQVIsRUFBcUIsVUFBQ0MsR0FBRCxFQUFNQyxHQUFOLEVBQWM7QUFDakNBLE1BQUlJLFFBQUosQ0FBYSxlQUFLVixJQUFMLENBQVVDLFNBQVYsRUFBcUIsMkJBQXJCLENBQWI7QUFDRCxDQUZEOztBQUlBQyxJQUFJRSxHQUFKLENBQVEsZ0JBQVIsRUFBMEIsVUFBQ0MsR0FBRCxFQUFNQyxHQUFOLEVBQWM7QUFDdENBLE1BQUlJLFFBQUosQ0FBYSxlQUFLVixJQUFMLENBQVVDLFNBQVYsRUFBcUIseUJBQXJCLENBQWI7QUFDRCxDQUZEOztBQUlBQyxJQUFJRSxHQUFKLENBQVEsY0FBUixFQUF3QixVQUFDQyxHQUFELEVBQU1DLEdBQU4sRUFBYztBQUNwQ0EsTUFBSUksUUFBSixDQUFhLGVBQUtWLElBQUwsQ0FBVUMsU0FBVixFQUFxQix1QkFBckIsQ0FBYjtBQUNELENBRkQ7O0FBSUFDLElBQUlFLEdBQUosQ0FBUSxHQUFSLEVBQWEsVUFBQ0MsR0FBRCxFQUFNQyxHQUFOLEVBQWM7QUFDekJLLFVBQVFDLEdBQVIsQ0FBWSxnQkFBWjtBQUNBTixNQUFJSSxRQUFKLENBQWEsZUFBS1YsSUFBTCxDQUFVRCxTQUFWLEVBQXFCLFlBQXJCLENBQWI7QUFDRCxDQUhEOztBQUtBRyxJQUFJRSxHQUFKLENBQVEsV0FBUixFQUFxQixVQUFDQyxHQUFELEVBQU1DLEdBQU4sRUFBYztBQUNqQ0EsTUFBSU8sSUFBSixDQUFTLG9CQUFvQlIsSUFBSVMsTUFBSixDQUFXQyxHQUF4QztBQUNELENBRkQ7O0FBSUFiLElBQUlFLEdBQUosQ0FBUSxtQkFBUixFQUE2QixVQUFDQyxHQUFELEVBQU1DLEdBQU4sRUFBYztBQUN6Q0EsTUFBSUksUUFBSixDQUFhLGVBQUtWLElBQUwsQ0FBVUMsU0FBVixFQUFxQix5QkFBckIsQ0FBYjtBQUNELENBRkQ7O0FBSUFDLElBQUlFLEdBQUosQ0FBUSx5QkFBUixFQUFtQyxVQUFDQyxHQUFELEVBQU1DLEdBQU4sRUFBYztBQUMvQ0EsTUFBSUksUUFBSixDQUFhLGVBQUtWLElBQUwsQ0FBVUMsU0FBVixFQUFxQiwwREFBckIsQ0FBYjtBQUNELENBRkQ7O0FBSUFDLElBQUlNLEdBQUosQ0FBUSxVQUFDSCxHQUFELEVBQU1DLEdBQU4sRUFBYztBQUNwQkssVUFBUUMsR0FBUixDQUFZLFNBQVo7QUFDQU4sTUFBSUksUUFBSixDQUFhLGVBQUtWLElBQUwsQ0FBVUQsU0FBVixFQUFxQixZQUFyQixDQUFiO0FBQ0QsQ0FIRDs7QUFLQUcsSUFBSWMsTUFBSixDQUFXYixJQUFYLEVBQWlCLFVBQUNjLEtBQUQsRUFBVztBQUMxQixNQUFHQSxLQUFILEVBQVM7QUFDUE4sWUFBUUMsR0FBUixDQUFZSyxLQUFaO0FBQ0QsR0FGRCxNQUdJO0FBQ0hOLFlBQVFDLEdBQVIsQ0FBWSxvQkFBb0JULElBQWhDO0FBQ0E7QUFDRixDQVBEIiwiZmlsZSI6InNlcnZlci5qcyIsInNvdXJjZVJvb3QiOiIvaG9tZS91YnVudHUiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgZXhwcmVzcyBmcm9tICdleHByZXNzJztcbmltcG9ydCBib2R5UGFyc2VyIGZyb20gJ2JvZHktcGFyc2VyJztcbmltcG9ydCBSZWFjdCBmcm9tICdyZWFjdCc7XG5pbXBvcnQgcGF0aCBmcm9tICdwYXRoJztcbmltcG9ydCB3ZWJwYWNrIGZyb20gJ3dlYnBhY2snO1xuaW1wb3J0IGhlbG1ldCBmcm9tICdoZWxtZXQnO1xuXG5pbXBvcnQgc3ZnIGZyb20gJy4vc3ZnZGVtby9hcHAnO1xuXG5cbnZhciBCVUlMRF9ESVIgPSBwYXRoLmpvaW4oX19kaXJuYW1lLCAnL3NyYy9mcm9udGVuZC9wdWJsaWMvJyk7XG5sZXQgYXBwID0gZXhwcmVzcygpO1xuXG5jb25zdCBwb3J0ID0gODg4ODtcblxuLy9hcHAudXNlKGhlbG1ldCgpKTtcblxuYXBwLmdldCgnL2luZGV4Lmh0bWwnLCAocmVxLCByZXMpID0+IHtcbiAgcmVzLnJlZGlyZWN0KCcvJyk7XG59KTtcblxuYXBwLnVzZSggZXhwcmVzcy5zdGF0aWMocGF0aC5qb2luKEJVSUxEX0RJUikpKTsgXG5cbmFwcC51c2UoJy8qL2pzL2J1bmRsZS5qcycsIChyZXEscmVzKSA9PiB7XG4gIHJlcy5zZW5kRmlsZShwYXRoLmpvaW4oQlVJTERfRElSLCAnanMvYnVuZGxlLmpzJykpO1xufSk7XG5cbmFwcC5nZXQoJy9mYXllYm9vJywgKHJlcSwgcmVzKSA9PiB7XG4gIHJlcy5zZW5kRmlsZShwYXRoLmpvaW4oX19kaXJuYW1lLCAnL0ZheWVib28vYXBwL2J1aWxkL2luZGV4Lmh0bWwnKSk7XG59KTtcblxuYXBwLnVzZSgnL2ZheWVib28vc3RhdGljJyxleHByZXNzLnN0YXRpYyhwYXRoLmpvaW4oX19kaXJuYW1lLCAnL0ZheWVib28vYXBwL2J1aWxkL3N0YXRpYycpKSk7XG5cbmFwcC5nZXQoJy9wZW5kdWx1bScsIChyZXEsIHJlcykgPT4ge1xuICByZXMuc2VuZEZpbGUocGF0aC5qb2luKF9fZGlybmFtZSwgJy9wZW5kdWx1bS9wcm9jZXNzaW5nLmh0bWwnKSk7XG59KTtcblxuYXBwLmdldCgnL3Byb2Nlc3NpbmcuanMnLCAocmVxLCByZXMpID0+IHtcbiAgcmVzLnNlbmRGaWxlKHBhdGguam9pbihfX2Rpcm5hbWUsICcvcGVuZHVsdW0vcHJvY2Vzc2luZy5qcycpKTtcbn0pO1xuXG5hcHAuZ2V0KCcvcGVuZHVsdW0uanMnLCAocmVxLCByZXMpID0+IHtcbiAgcmVzLnNlbmRGaWxlKHBhdGguam9pbihfX2Rpcm5hbWUsICcvcGVuZHVsdW0vcGVuZHVsdW0uanMnKSk7XG59KTtcblxuYXBwLmdldCgnLycsIChyZXEsIHJlcykgPT4ge1xuICBjb25zb2xlLmxvZygnc29tZW9uZSBzaG93ZWQnKTtcbiAgcmVzLnNlbmRGaWxlKHBhdGguam9pbihCVUlMRF9ESVIsICdpbmRleC5odG1sJykpO1xufSk7XG4gXG5hcHAuZ2V0KCcvYXBpLzp3aG8nLCAocmVxLCByZXMpID0+IHtcbiAgcmVzLnNlbmQoJ3lvdSBtYWRlIGl0IHRvICcgKyByZXEucGFyYW1zLndobyk7XG59KTtcblxuYXBwLmdldCgnL3Jlc291cmNlcy9yZXN1bWUnLCAocmVxLCByZXMpID0+IHtcbiAgcmVzLnNlbmRGaWxlKHBhdGguam9pbihfX2Rpcm5hbWUsICcvUmVzdW1lL3Jlc3VtZS1iYXNlLnBkZicpKTtcbn0pO1xuXG5hcHAuZ2V0KCcvcmVzb3VyY2VzL3NvY2tldC5pby5qcycsIChyZXEsIHJlcykgPT4ge1xuICByZXMuc2VuZEZpbGUocGF0aC5qb2luKF9fZGlybmFtZSwgJy9jaGF0Ym94L25vZGVfbW9kdWxlcy9zb2NrZXQuaW8tY2xpZW50L2Rpc3Qvc29ja2V0LmlvLmpzJykpO1xufSk7XG5cbmFwcC51c2UoKHJlcSwgcmVzKSA9PiB7XG4gIGNvbnNvbGUubG9nKCdkZWZhdWx0Jyk7XG4gIHJlcy5zZW5kRmlsZShwYXRoLmpvaW4oQlVJTERfRElSLCAnaW5kZXguaHRtbCcpKTtcbn0pO1xuXG5hcHAubGlzdGVuKHBvcnQsIChlcnJvcikgPT4ge1xuICBpZihlcnJvcil7XG4gICAgY29uc29sZS5sb2coZXJyb3IpO1xuICB9XG4gIGVsc2V7XG4gICBjb25zb2xlLmxvZygnV2UgYXJlIGxpdmUgb24gJyArIHBvcnQpO1xuICB9XG59KTtcbiJdfQ==",
+    "ast": null,
+    "map": {
+      "version": 3,
+      "sources": [
+        "server.js"
+      ],
+      "names": [
+        "BUILD_DIR",
+        "join",
+        "__dirname",
+        "app",
+        "port",
+        "get",
+        "req",
+        "res",
+        "redirect",
+        "use",
+        "static",
+        "sendFile",
+        "console",
+        "log",
+        "send",
+        "params",
+        "who",
+        "listen",
+        "error"
+      ],
+      "mappings": ";;AAAA;;;;AACA;;;;AACA;;;;AACA;;;;AACA;;;;AACA;;;;AAEA;;;;;;AAGA,IAAIA,YAAY,eAAKC,IAAL,CAAUC,SAAV,EAAqB,uBAArB,CAAhB;AACA,IAAIC,MAAM,wBAAV;;AAEA,IAAMC,OAAO,IAAb;;AAEA;;AAEAD,IAAIE,GAAJ,CAAQ,aAAR,EAAuB,UAACC,GAAD,EAAMC,GAAN,EAAc;AACnCA,MAAIC,QAAJ,CAAa,GAAb;AACD,CAFD;;AAIAL,IAAIM,GAAJ,CAAS,kBAAQC,MAAR,CAAe,eAAKT,IAAL,CAAUD,SAAV,CAAf,CAAT;;AAEAG,IAAIM,GAAJ,CAAQ,iBAAR,EAA2B,UAACH,GAAD,EAAKC,GAAL,EAAa;AACtCA,MAAII,QAAJ,CAAa,eAAKV,IAAL,CAAUD,SAAV,EAAqB,cAArB,CAAb;AACD,CAFD;;AAIAG,IAAIE,GAAJ,CAAQ,UAAR,EAAoB,UAACC,GAAD,EAAMC,GAAN,EAAc;AAChCA,MAAII,QAAJ,CAAa,eAAKV,IAAL,CAAUC,SAAV,EAAqB,+BAArB,CAAb;AACD,CAFD;;AAIAC,IAAIM,GAAJ,CAAQ,iBAAR,EAA0B,kBAAQC,MAAR,CAAe,eAAKT,IAAL,CAAUC,SAAV,EAAqB,2BAArB,CAAf,CAA1B;;AAEAC,IAAIE,GAAJ,CAAQ,WAAR,EAAqB,UAACC,GAAD,EAAMC,GAAN,EAAc;AACjCA,MAAII,QAAJ,CAAa,eAAKV,IAAL,CAAUC,SAAV,EAAqB,2BAArB,CAAb;AACD,CAFD;;AAIAC,IAAIE,GAAJ,CAAQ,gBAAR,EAA0B,UAACC,GAAD,EAAMC,GAAN,EAAc;AACtCA,MAAII,QAAJ,CAAa,eAAKV,IAAL,CAAUC,SAAV,EAAqB,yBAArB,CAAb;AACD,CAFD;;AAIAC,IAAIE,GAAJ,CAAQ,cAAR,EAAwB,UAACC,GAAD,EAAMC,GAAN,EAAc;AACpCA,MAAII,QAAJ,CAAa,eAAKV,IAAL,CAAUC,SAAV,EAAqB,uBAArB,CAAb;AACD,CAFD;;AAIAC,IAAIE,GAAJ,CAAQ,GAAR,EAAa,UAACC,GAAD,EAAMC,GAAN,EAAc;AACzBK,UAAQC,GAAR,CAAY,gBAAZ;AACAN,MAAII,QAAJ,CAAa,eAAKV,IAAL,CAAUD,SAAV,EAAqB,YAArB,CAAb;AACD,CAHD;;AAKAG,IAAIE,GAAJ,CAAQ,WAAR,EAAqB,UAACC,GAAD,EAAMC,GAAN,EAAc;AACjCA,MAAIO,IAAJ,CAAS,oBAAoBR,IAAIS,MAAJ,CAAWC,GAAxC;AACD,CAFD;;AAIAb,IAAIE,GAAJ,CAAQ,mBAAR,EAA6B,UAACC,GAAD,EAAMC,GAAN,EAAc;AACzCA,MAAII,QAAJ,CAAa,eAAKV,IAAL,CAAUC,SAAV,EAAqB,yBAArB,CAAb;AACD,CAFD;;AAIAC,IAAIE,GAAJ,CAAQ,yBAAR,EAAmC,UAACC,GAAD,EAAMC,GAAN,EAAc;AAC/CA,MAAII,QAAJ,CAAa,eAAKV,IAAL,CAAUC,SAAV,EAAqB,0DAArB,CAAb;AACD,CAFD;;AAIAC,IAAIM,GAAJ,CAAQ,UAACH,GAAD,EAAMC,GAAN,EAAc;AACpBK,UAAQC,GAAR,CAAY,SAAZ;AACAN,MAAII,QAAJ,CAAa,eAAKV,IAAL,CAAUD,SAAV,EAAqB,YAArB,CAAb;AACD,CAHD;;AAKAG,IAAIc,MAAJ,CAAWb,IAAX,EAAiB,UAACc,KAAD,EAAW;AAC1B,MAAGA,KAAH,EAAS;AACPN,YAAQC,GAAR,CAAYK,KAAZ;AACD,GAFD,MAGI;AACHN,YAAQC,GAAR,CAAY,oBAAoBT,IAAhC;AACA;AACF,CAPD",
+      "file": "server.js",
+      "sourceRoot": "/home/ubuntu",
+      "sourcesContent": [
+        "import express from 'express';\nimport bodyParser from 'body-parser';\nimport React from 'react';\nimport path from 'path';\nimport webpack from 'webpack';\nimport helmet from 'helmet';\n\nimport svg from './svgdemo/app';\n\n\nvar BUILD_DIR = path.join(__dirname, '/src/frontend/public/');\nlet app = express();\n\nconst port = 8888;\n\n//app.use(helmet());\n\napp.get('/index.html', (req, res) => {\n  res.redirect('/');\n});\n\napp.use( express.static(path.join(BUILD_DIR))); \n\napp.use('/*/js/bundle.js', (req,res) => {\n  res.sendFile(path.join(BUILD_DIR, 'js/bundle.js'));\n});\n\napp.get('/fayeboo', (req, res) => {\n  res.sendFile(path.join(__dirname, '/Fayeboo/app/build/index.html'));\n});\n\napp.use('/fayeboo/static',express.static(path.join(__dirname, '/Fayeboo/app/build/static')));\n\napp.get('/pendulum', (req, res) => {\n  res.sendFile(path.join(__dirname, '/pendulum/processing.html'));\n});\n\napp.get('/processing.js', (req, res) => {\n  res.sendFile(path.join(__dirname, '/pendulum/processing.js'));\n});\n\napp.get('/pendulum.js', (req, res) => {\n  res.sendFile(path.join(__dirname, '/pendulum/pendulum.js'));\n});\n\napp.get('/', (req, res) => {\n  console.log('someone showed');\n  res.sendFile(path.join(BUILD_DIR, 'index.html'));\n});\n \napp.get('/api/:who', (req, res) => {\n  res.send('you made it to ' + req.params.who);\n});\n\napp.get('/resources/resume', (req, res) => {\n  res.sendFile(path.join(__dirname, '/Resume/resume-base.pdf'));\n});\n\napp.get('/resources/socket.io.js', (req, res) => {\n  res.sendFile(path.join(__dirname, '/chatbox/node_modules/socket.io-client/dist/socket.io.js'));\n});\n\napp.use((req, res) => {\n  console.log('default');\n  res.sendFile(path.join(BUILD_DIR, 'index.html'));\n});\n\napp.listen(port, (error) => {\n  if(error){\n    console.log(error);\n  }\n  else{\n   console.log('We are live on ' + port);\n  }\n});\n"
+      ]
+    },
+    "mtime": 1558818916804
+  },
+  "{\"filename\":\"/home/ubuntu/svgdemo/app.js\",\"env\":{\"development\":{\"plugins\":[]}},\"retainLines\":false,\"highlightCode\":true,\"suppressDeprecationMessages\":false,\"presets\":[],\"plugins\":[[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],{\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}]],\"ignore\":[],\"code\":true,\"metadata\":true,\"ast\":true,\"comments\":true,\"compact\":\"auto\",\"minified\":false,\"sourceRoot\":\"/home/ubuntu/svgdemo\",\"babelrc\":true,\"sourceType\":\"module\",\"moduleIds\":false,\"passPerPreset\":false,\"parserOpts\":false,\"generatorOpts\":false}:6.26.0": {
+    "metadata": {
+      "usedHelpers": [],
+      "marked": [],
+      "modules": {
+        "imports": [],
+        "exports": {
+          "exported": [],
+          "specifiers": []
+        }
+      }
+    },
+    "options": {
+      "filename": "/home/ubuntu/svgdemo/app.js",
+      "filenameRelative": "/home/ubuntu/svgdemo/app.js",
+      "env": {},
+      "retainLines": false,
+      "highlightCode": true,
+      "suppressDeprecationMessages": false,
+      "presets": [],
+      "plugins": [
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ]
+      ],
+      "ignore": [],
+      "code": true,
+      "metadata": true,
+      "ast": false,
+      "comments": true,
+      "compact": "auto",
+      "minified": false,
+      "sourceMaps": "both",
+      "sourceMapTarget": "app.js",
+      "sourceFileName": "app.js",
+      "sourceRoot": "/home/ubuntu/svgdemo",
+      "babelrc": false,
+      "sourceType": "module",
+      "moduleRoot": "/home/ubuntu/svgdemo",
+      "moduleIds": false,
+      "passPerPreset": false,
+      "parserOpts": false,
+      "generatorOpts": false,
+      "basename": "app"
+    },
+    "ignored": false,
+    "code": "\"use strict\";\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJhcHAuanMiLCJzb3VyY2VSb290IjoiL2hvbWUvdWJ1bnR1L3N2Z2RlbW8iLCJzb3VyY2VzQ29udGVudCI6W119",
+    "ast": null,
+    "map": {
+      "version": 3,
+      "sources": [],
+      "names": [],
+      "mappings": "",
+      "file": "app.js",
+      "sourceRoot": "/home/ubuntu/svgdemo",
+      "sourcesContent": []
+    },
+    "mtime": 1516232913788
+  },
+  "{\"filename\":\"/home/ubuntu/test-server.js\",\"env\":{\"development\":{\"plugins\":[]}},\"retainLines\":false,\"highlightCode\":true,\"suppressDeprecationMessages\":false,\"presets\":[],\"plugins\":[[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],{\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}]],\"ignore\":[],\"code\":true,\"metadata\":true,\"ast\":true,\"comments\":true,\"compact\":\"auto\",\"minified\":false,\"sourceRoot\":\"/home/ubuntu\",\"babelrc\":true,\"sourceType\":\"module\",\"moduleIds\":false,\"passPerPreset\":false,\"parserOpts\":false,\"generatorOpts\":false}:6.26.0": {
+    "metadata": {
+      "usedHelpers": [
+        "interopRequireDefault"
+      ],
+      "marked": [],
+      "modules": {
+        "imports": [
+          {
+            "source": "express",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "express"
+              }
+            ]
+          },
+          {
+            "source": "body-parser",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "bodyParser"
+              }
+            ]
+          },
+          {
+            "source": "react",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "React"
+              }
+            ]
+          },
+          {
+            "source": "path",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "path"
+              }
+            ]
+          },
+          {
+            "source": "webpack",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "webpack"
+              }
+            ]
+          },
+          {
+            "source": "helmet",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "helmet"
+              }
+            ]
+          }
+        ],
+        "exports": {
+          "exported": [],
+          "specifiers": []
+        }
+      }
+    },
+    "options": {
+      "filename": "/home/ubuntu/test-server.js",
+      "filenameRelative": "/home/ubuntu/test-server.js",
+      "env": {},
+      "retainLines": false,
+      "highlightCode": true,
+      "suppressDeprecationMessages": false,
+      "presets": [],
+      "plugins": [
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ]
+      ],
+      "ignore": [],
+      "code": true,
+      "metadata": true,
+      "ast": false,
+      "comments": true,
+      "compact": "auto",
+      "minified": false,
+      "sourceMaps": "both",
+      "sourceMapTarget": "test-server.js",
+      "sourceFileName": "test-server.js",
+      "sourceRoot": "/home/ubuntu",
+      "babelrc": false,
+      "sourceType": "module",
+      "moduleRoot": "/home/ubuntu",
+      "moduleIds": false,
+      "passPerPreset": false,
+      "parserOpts": false,
+      "generatorOpts": false,
+      "basename": "test-server"
+    },
+    "ignored": false,
+    "code": "'use strict';\n\nvar _express = require('express');\n\nvar _express2 = _interopRequireDefault(_express);\n\nvar _bodyParser = require('body-parser');\n\nvar _bodyParser2 = _interopRequireDefault(_bodyParser);\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _path = require('path');\n\nvar _path2 = _interopRequireDefault(_path);\n\nvar _webpack = require('webpack');\n\nvar _webpack2 = _interopRequireDefault(_webpack);\n\nvar _helmet = require('helmet');\n\nvar _helmet2 = _interopRequireDefault(_helmet);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nvar app = (0, _express2.default)();\n\nvar port = 3000;\n\napp.use(function (req, res) {\n  console.log('fayetest');\n  res.send('heya');\n});\n\napp.listen(port, function (error) {\n  if (error) {\n    console.log(error);\n  } else {\n    console.log('We are live on ' + port);\n  }\n});\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInRlc3Qtc2VydmVyLmpzIl0sIm5hbWVzIjpbImFwcCIsInBvcnQiLCJ1c2UiLCJyZXEiLCJyZXMiLCJjb25zb2xlIiwibG9nIiwic2VuZCIsImxpc3RlbiIsImVycm9yIl0sIm1hcHBpbmdzIjoiOztBQUFBOzs7O0FBQ0E7Ozs7QUFDQTs7OztBQUNBOzs7O0FBQ0E7Ozs7QUFDQTs7Ozs7O0FBRUEsSUFBSUEsTUFBTSx3QkFBVjs7QUFFQSxJQUFNQyxPQUFPLElBQWI7O0FBRUFELElBQUlFLEdBQUosQ0FBUSxVQUFDQyxHQUFELEVBQUtDLEdBQUwsRUFBYTtBQUNuQkMsVUFBUUMsR0FBUixDQUFZLFVBQVo7QUFDQUYsTUFBSUcsSUFBSixDQUFTLE1BQVQ7QUFDRCxDQUhEOztBQU1BUCxJQUFJUSxNQUFKLENBQVdQLElBQVgsRUFBaUIsVUFBQ1EsS0FBRCxFQUFXO0FBQzFCLE1BQUdBLEtBQUgsRUFBUztBQUNQSixZQUFRQyxHQUFSLENBQVlHLEtBQVo7QUFDRCxHQUZELE1BR0k7QUFDSEosWUFBUUMsR0FBUixDQUFZLG9CQUFvQkwsSUFBaEM7QUFDQTtBQUNGLENBUEQiLCJmaWxlIjoidGVzdC1zZXJ2ZXIuanMiLCJzb3VyY2VSb290IjoiL2hvbWUvdWJ1bnR1Iiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IGV4cHJlc3MgZnJvbSAnZXhwcmVzcyc7XG5pbXBvcnQgYm9keVBhcnNlciBmcm9tICdib2R5LXBhcnNlcic7XG5pbXBvcnQgUmVhY3QgZnJvbSAncmVhY3QnO1xuaW1wb3J0IHBhdGggZnJvbSAncGF0aCc7XG5pbXBvcnQgd2VicGFjayBmcm9tICd3ZWJwYWNrJztcbmltcG9ydCBoZWxtZXQgZnJvbSAnaGVsbWV0JztcblxubGV0IGFwcCA9IGV4cHJlc3MoKTtcblxuY29uc3QgcG9ydCA9IDMwMDA7XG5cbmFwcC51c2UoKHJlcSxyZXMpID0+IHtcbiAgY29uc29sZS5sb2coJ2ZheWV0ZXN0Jyk7XG4gIHJlcy5zZW5kKCdoZXlhJyk7XG59KTtcblxuXG5hcHAubGlzdGVuKHBvcnQsIChlcnJvcikgPT4ge1xuICBpZihlcnJvcil7XG4gICAgY29uc29sZS5sb2coZXJyb3IpO1xuICB9XG4gIGVsc2V7XG4gICBjb25zb2xlLmxvZygnV2UgYXJlIGxpdmUgb24gJyArIHBvcnQpO1xuICB9XG59KTtcbiJdfQ==",
+    "ast": null,
+    "map": {
+      "version": 3,
+      "sources": [
+        "test-server.js"
+      ],
+      "names": [
+        "app",
+        "port",
+        "use",
+        "req",
+        "res",
+        "console",
+        "log",
+        "send",
+        "listen",
+        "error"
+      ],
+      "mappings": ";;AAAA;;;;AACA;;;;AACA;;;;AACA;;;;AACA;;;;AACA;;;;;;AAEA,IAAIA,MAAM,wBAAV;;AAEA,IAAMC,OAAO,IAAb;;AAEAD,IAAIE,GAAJ,CAAQ,UAACC,GAAD,EAAKC,GAAL,EAAa;AACnBC,UAAQC,GAAR,CAAY,UAAZ;AACAF,MAAIG,IAAJ,CAAS,MAAT;AACD,CAHD;;AAMAP,IAAIQ,MAAJ,CAAWP,IAAX,EAAiB,UAACQ,KAAD,EAAW;AAC1B,MAAGA,KAAH,EAAS;AACPJ,YAAQC,GAAR,CAAYG,KAAZ;AACD,GAFD,MAGI;AACHJ,YAAQC,GAAR,CAAY,oBAAoBL,IAAhC;AACA;AACF,CAPD",
+      "file": "test-server.js",
+      "sourceRoot": "/home/ubuntu",
+      "sourcesContent": [
+        "import express from 'express';\nimport bodyParser from 'body-parser';\nimport React from 'react';\nimport path from 'path';\nimport webpack from 'webpack';\nimport helmet from 'helmet';\n\nlet app = express();\n\nconst port = 3000;\n\napp.use((req,res) => {\n  console.log('fayetest');\n  res.send('heya');\n});\n\n\napp.listen(port, (error) => {\n  if(error){\n    console.log(error);\n  }\n  else{\n   console.log('We are live on ' + port);\n  }\n});\n"
+      ]
+    },
+    "mtime": 1519357590656
+  },
+  "{\"filename\":\"/home/ubuntu/chatbox/mongodb.init.js\",\"env\":{},\"retainLines\":false,\"highlightCode\":true,\"suppressDeprecationMessages\":false,\"presets\":[],\"plugins\":[[[],{\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}]],\"ignore\":[],\"code\":true,\"metadata\":true,\"ast\":true,\"comments\":true,\"compact\":\"auto\",\"minified\":false,\"sourceRoot\":\"/home/ubuntu/chatbox\",\"babelrc\":true,\"sourceType\":\"module\",\"moduleIds\":false,\"passPerPreset\":false,\"parserOpts\":false,\"generatorOpts\":false}:6.26.0": {
+    "metadata": {
+      "usedHelpers": [],
+      "marked": [],
+      "modules": {
+        "imports": [],
+        "exports": {
+          "exported": [],
+          "specifiers": []
+        }
+      }
+    },
+    "options": {
+      "filename": "/home/ubuntu/chatbox/mongodb.init.js",
+      "filenameRelative": "/home/ubuntu/chatbox/mongodb.init.js",
+      "env": {},
+      "retainLines": false,
+      "highlightCode": true,
+      "suppressDeprecationMessages": false,
+      "presets": [],
+      "plugins": [
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ]
+      ],
+      "ignore": [],
+      "code": true,
+      "metadata": true,
+      "ast": false,
+      "comments": true,
+      "compact": "auto",
+      "minified": false,
+      "sourceMaps": "both",
+      "sourceMapTarget": "mongodb.init.js",
+      "sourceFileName": "mongodb.init.js",
+      "sourceRoot": "/home/ubuntu/chatbox",
+      "babelrc": false,
+      "sourceType": "module",
+      "moduleRoot": "/home/ubuntu/chatbox",
+      "moduleIds": false,
+      "passPerPreset": false,
+      "parserOpts": false,
+      "generatorOpts": false,
+      "basename": "mongodb.init"
+    },
+    "ignored": false,
+    "code": "'use strict';\n\nvar MongoClient = require('mongodb').MongoClient,\n    assert = require('assert');\n\nvar url = 'mongodb://localhost:27017';\n\nvar dbName = 'chatbox';\n\nvar insertDocuments = function insertDocuments(db) {\n  var collection = db.collection('test');\n  return new Promise(function (resolve, reject) {\n    collection.insertMany([{ a: 1 }, { a: 2 }, { a: 3 }], function (err, result) {\n      assert.equal(err, null);\n      assert.equal(3, result.result.n);\n      assert.equal(3, result.ops.length);\n      console.log('inserted 3 test docs');\n    });\n    resolve();\n  });\n};\n\nMongoClient.connect(url, function (err, database) {\n  if (err) throw err;\n  console.log(\"Connected successfully to server\");\n\n  var db = database.db(dbName);\n  insertDocuments(db).then(database.close());\n});\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIm1vbmdvZGIuaW5pdC5qcyJdLCJuYW1lcyI6WyJNb25nb0NsaWVudCIsInJlcXVpcmUiLCJhc3NlcnQiLCJ1cmwiLCJkYk5hbWUiLCJpbnNlcnREb2N1bWVudHMiLCJkYiIsImNvbGxlY3Rpb24iLCJQcm9taXNlIiwicmVzb2x2ZSIsInJlamVjdCIsImluc2VydE1hbnkiLCJhIiwiZXJyIiwicmVzdWx0IiwiZXF1YWwiLCJuIiwib3BzIiwibGVuZ3RoIiwiY29uc29sZSIsImxvZyIsImNvbm5lY3QiLCJkYXRhYmFzZSIsInRoZW4iLCJjbG9zZSJdLCJtYXBwaW5ncyI6Ijs7QUFBQSxJQUFJQSxjQUFjQyxRQUFRLFNBQVIsRUFBbUJELFdBQXJDO0FBQUEsSUFDSUUsU0FBU0QsUUFBUSxRQUFSLENBRGI7O0FBR0EsSUFBTUUsTUFBTSwyQkFBWjs7QUFFQSxJQUFNQyxTQUFTLFNBQWY7O0FBR0EsSUFBSUMsa0JBQWtCLFNBQWxCQSxlQUFrQixDQUFDQyxFQUFELEVBQVE7QUFDNUIsTUFBTUMsYUFBYUQsR0FBR0MsVUFBSCxDQUFjLE1BQWQsQ0FBbkI7QUFDQSxTQUFPLElBQUlDLE9BQUosQ0FBWSxVQUFDQyxPQUFELEVBQVVDLE1BQVYsRUFBcUI7QUFDeENILGVBQVdJLFVBQVgsQ0FBc0IsQ0FDcEIsRUFBQ0MsR0FBSSxDQUFMLEVBRG9CLEVBQ1gsRUFBQ0EsR0FBSSxDQUFMLEVBRFcsRUFDRixFQUFDQSxHQUFJLENBQUwsRUFERSxDQUF0QixFQUVHLFVBQUNDLEdBQUQsRUFBTUMsTUFBTixFQUFpQjtBQUNsQlosYUFBT2EsS0FBUCxDQUFhRixHQUFiLEVBQWtCLElBQWxCO0FBQ0FYLGFBQU9hLEtBQVAsQ0FBYSxDQUFiLEVBQWdCRCxPQUFPQSxNQUFQLENBQWNFLENBQTlCO0FBQ0FkLGFBQU9hLEtBQVAsQ0FBYSxDQUFiLEVBQWdCRCxPQUFPRyxHQUFQLENBQVdDLE1BQTNCO0FBQ0FDLGNBQVFDLEdBQVIsQ0FBWSxzQkFBWjtBQUNELEtBUEQ7QUFRQVg7QUFDQyxHQVZNLENBQVA7QUFXRCxDQWJEOztBQWdCQVQsWUFBWXFCLE9BQVosQ0FBb0JsQixHQUFwQixFQUF5QixVQUFDVSxHQUFELEVBQU1TLFFBQU4sRUFBbUI7QUFDMUMsTUFBR1QsR0FBSCxFQUFRLE1BQU1BLEdBQU47QUFDUk0sVUFBUUMsR0FBUixDQUFZLGtDQUFaOztBQUVBLE1BQU1kLEtBQUtnQixTQUFTaEIsRUFBVCxDQUFZRixNQUFaLENBQVg7QUFDQUMsa0JBQWdCQyxFQUFoQixFQUFvQmlCLElBQXBCLENBQXlCRCxTQUFTRSxLQUFULEVBQXpCO0FBQ0QsQ0FORCIsImZpbGUiOiJtb25nb2RiLmluaXQuanMiLCJzb3VyY2VSb290IjoiL2hvbWUvdWJ1bnR1L2NoYXRib3giLCJzb3VyY2VzQ29udGVudCI6WyJ2YXIgTW9uZ29DbGllbnQgPSByZXF1aXJlKCdtb25nb2RiJykuTW9uZ29DbGllbnQsXG4gICAgYXNzZXJ0ID0gcmVxdWlyZSgnYXNzZXJ0Jyk7XG5cbmNvbnN0IHVybCA9ICdtb25nb2RiOi8vbG9jYWxob3N0OjI3MDE3JztcblxuY29uc3QgZGJOYW1lID0gJ2NoYXRib3gnO1xuXG5cbnZhciBpbnNlcnREb2N1bWVudHMgPSAoZGIpID0+IHtcbiAgY29uc3QgY29sbGVjdGlvbiA9IGRiLmNvbGxlY3Rpb24oJ3Rlc3QnKTtcbiAgcmV0dXJuIG5ldyBQcm9taXNlKChyZXNvbHZlLCByZWplY3QpID0+IHtcbiAgY29sbGVjdGlvbi5pbnNlcnRNYW55KFtcbiAgICB7YSA6IDF9LCB7YSA6IDJ9LCB7YSA6IDN9XG4gIF0sIChlcnIsIHJlc3VsdCkgPT4ge1xuICAgIGFzc2VydC5lcXVhbChlcnIsIG51bGwpO1xuICAgIGFzc2VydC5lcXVhbCgzLCByZXN1bHQucmVzdWx0Lm4pO1xuICAgIGFzc2VydC5lcXVhbCgzLCByZXN1bHQub3BzLmxlbmd0aCk7XG4gICAgY29uc29sZS5sb2coJ2luc2VydGVkIDMgdGVzdCBkb2NzJyk7XG4gIH0pO1xuICByZXNvbHZlKCk7XG4gIH0pO1xufTtcblxuXG5Nb25nb0NsaWVudC5jb25uZWN0KHVybCwgKGVyciwgZGF0YWJhc2UpID0+IHtcbiAgaWYoZXJyKSB0aHJvdyBlcnI7XG4gIGNvbnNvbGUubG9nKFwiQ29ubmVjdGVkIHN1Y2Nlc3NmdWxseSB0byBzZXJ2ZXJcIik7XG5cbiAgY29uc3QgZGIgPSBkYXRhYmFzZS5kYihkYk5hbWUpO1xuICBpbnNlcnREb2N1bWVudHMoZGIpLnRoZW4oZGF0YWJhc2UuY2xvc2UoKSk7XG59KTtcblxuXG4iXX0=",
+    "ast": null,
+    "map": {
+      "version": 3,
+      "sources": [
+        "mongodb.init.js"
+      ],
+      "names": [
+        "MongoClient",
+        "require",
+        "assert",
+        "url",
+        "dbName",
+        "insertDocuments",
+        "db",
+        "collection",
+        "Promise",
+        "resolve",
+        "reject",
+        "insertMany",
+        "a",
+        "err",
+        "result",
+        "equal",
+        "n",
+        "ops",
+        "length",
+        "console",
+        "log",
+        "connect",
+        "database",
+        "then",
+        "close"
+      ],
+      "mappings": ";;AAAA,IAAIA,cAAcC,QAAQ,SAAR,EAAmBD,WAArC;AAAA,IACIE,SAASD,QAAQ,QAAR,CADb;;AAGA,IAAME,MAAM,2BAAZ;;AAEA,IAAMC,SAAS,SAAf;;AAGA,IAAIC,kBAAkB,SAAlBA,eAAkB,CAACC,EAAD,EAAQ;AAC5B,MAAMC,aAAaD,GAAGC,UAAH,CAAc,MAAd,CAAnB;AACA,SAAO,IAAIC,OAAJ,CAAY,UAACC,OAAD,EAAUC,MAAV,EAAqB;AACxCH,eAAWI,UAAX,CAAsB,CACpB,EAACC,GAAI,CAAL,EADoB,EACX,EAACA,GAAI,CAAL,EADW,EACF,EAACA,GAAI,CAAL,EADE,CAAtB,EAEG,UAACC,GAAD,EAAMC,MAAN,EAAiB;AAClBZ,aAAOa,KAAP,CAAaF,GAAb,EAAkB,IAAlB;AACAX,aAAOa,KAAP,CAAa,CAAb,EAAgBD,OAAOA,MAAP,CAAcE,CAA9B;AACAd,aAAOa,KAAP,CAAa,CAAb,EAAgBD,OAAOG,GAAP,CAAWC,MAA3B;AACAC,cAAQC,GAAR,CAAY,sBAAZ;AACD,KAPD;AAQAX;AACC,GAVM,CAAP;AAWD,CAbD;;AAgBAT,YAAYqB,OAAZ,CAAoBlB,GAApB,EAAyB,UAACU,GAAD,EAAMS,QAAN,EAAmB;AAC1C,MAAGT,GAAH,EAAQ,MAAMA,GAAN;AACRM,UAAQC,GAAR,CAAY,kCAAZ;;AAEA,MAAMd,KAAKgB,SAAShB,EAAT,CAAYF,MAAZ,CAAX;AACAC,kBAAgBC,EAAhB,EAAoBiB,IAApB,CAAyBD,SAASE,KAAT,EAAzB;AACD,CAND",
+      "file": "mongodb.init.js",
+      "sourceRoot": "/home/ubuntu/chatbox",
+      "sourcesContent": [
+        "var MongoClient = require('mongodb').MongoClient,\n    assert = require('assert');\n\nconst url = 'mongodb://localhost:27017';\n\nconst dbName = 'chatbox';\n\n\nvar insertDocuments = (db) => {\n  const collection = db.collection('test');\n  return new Promise((resolve, reject) => {\n  collection.insertMany([\n    {a : 1}, {a : 2}, {a : 3}\n  ], (err, result) => {\n    assert.equal(err, null);\n    assert.equal(3, result.result.n);\n    assert.equal(3, result.ops.length);\n    console.log('inserted 3 test docs');\n  });\n  resolve();\n  });\n};\n\n\nMongoClient.connect(url, (err, database) => {\n  if(err) throw err;\n  console.log(\"Connected successfully to server\");\n\n  const db = database.db(dbName);\n  insertDocuments(db).then(database.close());\n});\n\n\n"
+      ]
+    },
+    "mtime": 1519679781672
+  },
+  "{\"filename\":\"/home/ubuntu/chatbox/mongo.test.js\",\"env\":{},\"retainLines\":false,\"highlightCode\":true,\"suppressDeprecationMessages\":false,\"presets\":[],\"plugins\":[[[],{\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}]],\"ignore\":[],\"code\":true,\"metadata\":true,\"ast\":true,\"comments\":true,\"compact\":\"auto\",\"minified\":false,\"sourceRoot\":\"/home/ubuntu/chatbox\",\"babelrc\":true,\"sourceType\":\"module\",\"moduleIds\":false,\"passPerPreset\":false,\"parserOpts\":false,\"generatorOpts\":false}:6.26.0": {
+    "metadata": {
+      "usedHelpers": [
+        "asyncToGenerator",
+        "interopRequireDefault"
+      ],
+      "marked": [],
+      "modules": {
+        "imports": [
+          {
+            "source": "bcrypt",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "bcrypt"
+              }
+            ]
+          }
+        ],
+        "exports": {
+          "exported": [],
+          "specifiers": []
+        }
+      }
+    },
+    "options": {
+      "filename": "/home/ubuntu/chatbox/mongo.test.js",
+      "filenameRelative": "/home/ubuntu/chatbox/mongo.test.js",
+      "env": {},
+      "retainLines": false,
+      "highlightCode": true,
+      "suppressDeprecationMessages": false,
+      "presets": [],
+      "plugins": [
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ]
+      ],
+      "ignore": [],
+      "code": true,
+      "metadata": true,
+      "ast": false,
+      "comments": true,
+      "compact": "auto",
+      "minified": false,
+      "sourceMaps": "both",
+      "sourceMapTarget": "mongo.test.js",
+      "sourceFileName": "mongo.test.js",
+      "sourceRoot": "/home/ubuntu/chatbox",
+      "babelrc": false,
+      "sourceType": "module",
+      "moduleRoot": "/home/ubuntu/chatbox",
+      "moduleIds": false,
+      "passPerPreset": false,
+      "parserOpts": false,
+      "generatorOpts": false,
+      "basename": "mongo.test"
+    },
+    "ignored": false,
+    "code": "'use strict';\n\nvar _bcrypt = require('bcrypt');\n\nvar _bcrypt2 = _interopRequireDefault(_bcrypt);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction _asyncToGenerator(fn) { return function () { var gen = fn.apply(this, arguments); return new Promise(function (resolve, reject) { function step(key, arg) { try { var info = gen[key](arg); var value = info.value; } catch (error) { reject(error); return; } if (info.done) { resolve(value); } else { return Promise.resolve(value).then(function (value) { step(\"next\", value); }, function (err) { step(\"throw\", err); }); } } return step(\"next\"); }); }; }\n\nvar MongoClient = require('mongodb').MongoClient;\nvar assert = require('assert');\n\n\nvar url = 'mongodb://localhost:27017';\n\nvar dbName = 'chatbox';\n\n_asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee() {\n  var client, db, collection, isUser;\n  return regeneratorRuntime.wrap(function _callee$(_context) {\n    while (1) {\n      switch (_context.prev = _context.next) {\n        case 0:\n          _context.next = 2;\n          return MongoClient.connect(url);\n\n        case 2:\n          client = _context.sent;\n\n          console.log('connected');\n\n          db = client.db(dbName);\n          collection = db.collection('users');\n          _context.next = 8;\n          return collection.findOne({\n            name: 'Pasha'\n          });\n\n        case 8:\n          isUser = _context.sent;\n\n\n          console.log(isUser.password);\n          console.log(isUser._id);\n\n          _bcrypt2.default.compare('1234', isUser.password).then(function (res) {\n            console.log('test checks out : ' + res);\n          });\n\n        case 12:\n        case 'end':\n          return _context.stop();\n      }\n    }\n  }, _callee, this);\n}))();\n\n_bcrypt2.default.hash('test', 10).then(function (hash) {\n  return _bcrypt2.default.compare('test', hash);\n}).then(function (res) {\n  console.log('test is ' + res);\n});\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIm1vbmdvLnRlc3QuanMiXSwibmFtZXMiOlsiTW9uZ29DbGllbnQiLCJyZXF1aXJlIiwiYXNzZXJ0IiwidXJsIiwiZGJOYW1lIiwiY29ubmVjdCIsImNsaWVudCIsImNvbnNvbGUiLCJsb2ciLCJkYiIsImNvbGxlY3Rpb24iLCJmaW5kT25lIiwibmFtZSIsImlzVXNlciIsInBhc3N3b3JkIiwiX2lkIiwiY29tcGFyZSIsInRoZW4iLCJyZXMiLCJoYXNoIl0sIm1hcHBpbmdzIjoiOztBQUVBOzs7Ozs7OztBQUZBLElBQU1BLGNBQWNDLFFBQVEsU0FBUixFQUFtQkQsV0FBdkM7QUFDQSxJQUFNRSxTQUFTRCxRQUFRLFFBQVIsQ0FBZjs7O0FBSUEsSUFBTUUsTUFBTSwyQkFBWjs7QUFFQSxJQUFNQyxTQUFTLFNBQWY7O0FBRUEsd0RBQUM7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQSxpQkFDb0JKLFlBQVlLLE9BQVosQ0FBb0JGLEdBQXBCLENBRHBCOztBQUFBO0FBQ0tHLGdCQURMOztBQUVDQyxrQkFBUUMsR0FBUixDQUFZLFdBQVo7O0FBRU1DLFlBSlAsR0FJWUgsT0FBT0csRUFBUCxDQUFVTCxNQUFWLENBSlo7QUFLT00sb0JBTFAsR0FLb0JELEdBQUdDLFVBQUgsQ0FBYyxPQUFkLENBTHBCO0FBQUE7QUFBQSxpQkFPb0JBLFdBQVdDLE9BQVgsQ0FBbUI7QUFDcENDLGtCQUFNO0FBRDhCLFdBQW5CLENBUHBCOztBQUFBO0FBT0tDLGdCQVBMOzs7QUFXQ04sa0JBQVFDLEdBQVIsQ0FBWUssT0FBT0MsUUFBbkI7QUFDQVAsa0JBQVFDLEdBQVIsQ0FBWUssT0FBT0UsR0FBbkI7O0FBRUEsMkJBQU9DLE9BQVAsQ0FBZSxNQUFmLEVBQXVCSCxPQUFPQyxRQUE5QixFQUF3Q0csSUFBeEMsQ0FBNkMsVUFBQ0MsR0FBRCxFQUFTO0FBQUNYLG9CQUFRQyxHQUFSLENBQVksdUJBQXVCVSxHQUFuQztBQUF3QyxXQUEvRjs7QUFkRDtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQSxDQUFEOztBQWtCQSxpQkFBT0MsSUFBUCxDQUFZLE1BQVosRUFBb0IsRUFBcEIsRUFBd0JGLElBQXhCLENBQTZCLFVBQUNFLElBQUQ7QUFBQSxTQUM1QixpQkFBT0gsT0FBUCxDQUFlLE1BQWYsRUFBdUJHLElBQXZCLENBRDRCO0FBQUEsQ0FBN0IsRUFFR0YsSUFGSCxDQUVRLFVBQUNDLEdBQUQsRUFBUztBQUFDWCxVQUFRQyxHQUFSLENBQVksYUFBYVUsR0FBekI7QUFBOEIsQ0FGaEQiLCJmaWxlIjoibW9uZ28udGVzdC5qcyIsInNvdXJjZVJvb3QiOiIvaG9tZS91YnVudHUvY2hhdGJveCIsInNvdXJjZXNDb250ZW50IjpbImNvbnN0IE1vbmdvQ2xpZW50ID0gcmVxdWlyZSgnbW9uZ29kYicpLk1vbmdvQ2xpZW50O1xuY29uc3QgYXNzZXJ0ID0gcmVxdWlyZSgnYXNzZXJ0Jyk7XG5pbXBvcnQgYmNyeXB0IGZyb20gJ2JjcnlwdCc7XG5cblxuY29uc3QgdXJsID0gJ21vbmdvZGI6Ly9sb2NhbGhvc3Q6MjcwMTcnO1xuXG5jb25zdCBkYk5hbWUgPSAnY2hhdGJveCc7XG5cbihhc3luYyBmdW5jdGlvbigpIHtcbiAgbGV0IGNsaWVudCA9IGF3YWl0IE1vbmdvQ2xpZW50LmNvbm5lY3QodXJsKTtcbiAgY29uc29sZS5sb2coJ2Nvbm5lY3RlZCcpO1xuXG4gIGNvbnN0IGRiID0gY2xpZW50LmRiKGRiTmFtZSk7XG4gIGNvbnN0IGNvbGxlY3Rpb24gPSBkYi5jb2xsZWN0aW9uKCd1c2VycycpO1xuICBcbiAgbGV0IGlzVXNlciA9IGF3YWl0IGNvbGxlY3Rpb24uZmluZE9uZSh7XG4gICAgbmFtZTogJ1Bhc2hhJ1xuICB9KTtcbiAgXG4gIGNvbnNvbGUubG9nKGlzVXNlci5wYXNzd29yZCk7XG4gIGNvbnNvbGUubG9nKGlzVXNlci5faWQpO1xuXG4gIGJjcnlwdC5jb21wYXJlKCcxMjM0JywgaXNVc2VyLnBhc3N3b3JkKS50aGVuKChyZXMpID0+IHtjb25zb2xlLmxvZygndGVzdCBjaGVja3Mgb3V0IDogJyArIHJlcyl9KTtcblxufSkoKTtcblxuYmNyeXB0Lmhhc2goJ3Rlc3QnLCAxMCkudGhlbigoaGFzaCkgPT4gKFxuXHRiY3J5cHQuY29tcGFyZSgndGVzdCcsIGhhc2gpXG4pKS50aGVuKChyZXMpID0+IHtjb25zb2xlLmxvZygndGVzdCBpcyAnICsgcmVzKX0pO1xuIl19",
+    "ast": null,
+    "map": {
+      "version": 3,
+      "sources": [
+        "mongo.test.js"
+      ],
+      "names": [
+        "MongoClient",
+        "require",
+        "assert",
+        "url",
+        "dbName",
+        "connect",
+        "client",
+        "console",
+        "log",
+        "db",
+        "collection",
+        "findOne",
+        "name",
+        "isUser",
+        "password",
+        "_id",
+        "compare",
+        "then",
+        "res",
+        "hash"
+      ],
+      "mappings": ";;AAEA;;;;;;;;AAFA,IAAMA,cAAcC,QAAQ,SAAR,EAAmBD,WAAvC;AACA,IAAME,SAASD,QAAQ,QAAR,CAAf;;;AAIA,IAAME,MAAM,2BAAZ;;AAEA,IAAMC,SAAS,SAAf;;AAEA,wDAAC;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,iBACoBJ,YAAYK,OAAZ,CAAoBF,GAApB,CADpB;;AAAA;AACKG,gBADL;;AAECC,kBAAQC,GAAR,CAAY,WAAZ;;AAEMC,YAJP,GAIYH,OAAOG,EAAP,CAAUL,MAAV,CAJZ;AAKOM,oBALP,GAKoBD,GAAGC,UAAH,CAAc,OAAd,CALpB;AAAA;AAAA,iBAOoBA,WAAWC,OAAX,CAAmB;AACpCC,kBAAM;AAD8B,WAAnB,CAPpB;;AAAA;AAOKC,gBAPL;;;AAWCN,kBAAQC,GAAR,CAAYK,OAAOC,QAAnB;AACAP,kBAAQC,GAAR,CAAYK,OAAOE,GAAnB;;AAEA,2BAAOC,OAAP,CAAe,MAAf,EAAuBH,OAAOC,QAA9B,EAAwCG,IAAxC,CAA6C,UAACC,GAAD,EAAS;AAACX,oBAAQC,GAAR,CAAY,uBAAuBU,GAAnC;AAAwC,WAA/F;;AAdD;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,CAAD;;AAkBA,iBAAOC,IAAP,CAAY,MAAZ,EAAoB,EAApB,EAAwBF,IAAxB,CAA6B,UAACE,IAAD;AAAA,SAC5B,iBAAOH,OAAP,CAAe,MAAf,EAAuBG,IAAvB,CAD4B;AAAA,CAA7B,EAEGF,IAFH,CAEQ,UAACC,GAAD,EAAS;AAACX,UAAQC,GAAR,CAAY,aAAaU,GAAzB;AAA8B,CAFhD",
+      "file": "mongo.test.js",
+      "sourceRoot": "/home/ubuntu/chatbox",
+      "sourcesContent": [
+        "const MongoClient = require('mongodb').MongoClient;\nconst assert = require('assert');\nimport bcrypt from 'bcrypt';\n\n\nconst url = 'mongodb://localhost:27017';\n\nconst dbName = 'chatbox';\n\n(async function() {\n  let client = await MongoClient.connect(url);\n  console.log('connected');\n\n  const db = client.db(dbName);\n  const collection = db.collection('users');\n  \n  let isUser = await collection.findOne({\n    name: 'Pasha'\n  });\n  \n  console.log(isUser.password);\n  console.log(isUser._id);\n\n  bcrypt.compare('1234', isUser.password).then((res) => {console.log('test checks out : ' + res)});\n\n})();\n\nbcrypt.hash('test', 10).then((hash) => (\n\tbcrypt.compare('test', hash)\n)).then((res) => {console.log('test is ' + res)});\n"
+      ]
+    },
+    "mtime": 1519700719276
+  },
+  "{\"filename\":\"/home/ubuntu/chatbox/app.beta.js\",\"env\":{},\"retainLines\":false,\"highlightCode\":true,\"suppressDeprecationMessages\":false,\"presets\":[],\"plugins\":[[[],{\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}]],\"ignore\":[],\"code\":true,\"metadata\":true,\"ast\":true,\"comments\":true,\"compact\":\"auto\",\"minified\":false,\"sourceRoot\":\"/home/ubuntu/chatbox\",\"babelrc\":true,\"sourceType\":\"module\",\"moduleIds\":false,\"passPerPreset\":false,\"parserOpts\":false,\"generatorOpts\":false}:6.26.0": {
+    "metadata": {
+      "usedHelpers": [
+        "asyncToGenerator",
+        "interopRequireDefault"
+      ],
+      "marked": [],
+      "modules": {
+        "imports": [
+          {
+            "source": "express",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "express"
+              }
+            ]
+          },
+          {
+            "source": "http",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "HTTP"
+              }
+            ]
+          },
+          {
+            "source": "request",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "req"
+              }
+            ]
+          },
+          {
+            "source": "bcrypt",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "bcrypt"
+              }
+            ]
+          },
+          {
+            "source": "xss",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "xss"
+              }
+            ]
+          },
+          {
+            "source": "assert",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "assert"
+              }
+            ]
+          },
+          {
+            "source": "mongodb",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "Mongo"
+              }
+            ]
+          }
+        ],
+        "exports": {
+          "exported": [],
+          "specifiers": []
+        }
+      }
+    },
+    "options": {
+      "filename": "/home/ubuntu/chatbox/app.beta.js",
+      "filenameRelative": "/home/ubuntu/chatbox/app.beta.js",
+      "env": {},
+      "retainLines": false,
+      "highlightCode": true,
+      "suppressDeprecationMessages": false,
+      "presets": [],
+      "plugins": [
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ]
+      ],
+      "ignore": [],
+      "code": true,
+      "metadata": true,
+      "ast": false,
+      "comments": true,
+      "compact": "auto",
+      "minified": false,
+      "sourceMaps": "both",
+      "sourceMapTarget": "app.beta.js",
+      "sourceFileName": "app.beta.js",
+      "sourceRoot": "/home/ubuntu/chatbox",
+      "babelrc": false,
+      "sourceType": "module",
+      "moduleRoot": "/home/ubuntu/chatbox",
+      "moduleIds": false,
+      "passPerPreset": false,
+      "parserOpts": false,
+      "generatorOpts": false,
+      "basename": "app.beta"
+    },
+    "ignored": false,
+    "code": "'use strict';\n\nvar _express = require('express');\n\nvar _express2 = _interopRequireDefault(_express);\n\nvar _http = require('http');\n\nvar _http2 = _interopRequireDefault(_http);\n\nvar _request = require('request');\n\nvar _request2 = _interopRequireDefault(_request);\n\nvar _bcrypt = require('bcrypt');\n\nvar _bcrypt2 = _interopRequireDefault(_bcrypt);\n\nvar _xss = require('xss');\n\nvar _xss2 = _interopRequireDefault(_xss);\n\nvar _assert = require('assert');\n\nvar _assert2 = _interopRequireDefault(_assert);\n\nvar _mongodb = require('mongodb');\n\nvar _mongodb2 = _interopRequireDefault(_mongodb);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction _asyncToGenerator(fn) { return function () { var gen = fn.apply(this, arguments); return new Promise(function (resolve, reject) { function step(key, arg) { try { var info = gen[key](arg); var value = info.value; } catch (error) { reject(error); return; } if (info.done) { resolve(value); } else { return Promise.resolve(value).then(function (value) { step(\"next\", value); }, function (err) { step(\"throw\", err); }); } } return step(\"next\"); }); }; }\n\nvar socketio = require('socket.io');\n\n\nvar path = require('path');\nvar saltRounds = 10;\nvar url = 'mongodb://localhost:27017';\nvar dbName = 'chatbox';\nvar options = {\n\twhiteList: {\n\t\ta: ['href', 'title', 'target'],\n\t\tb: true,\n\t\ti: true,\n\t\tu: true,\n\t\ts: true\n\t}\n};\nvar port = 8080;\n\nvar app = (0, _express2.default)();\nvar http = _http2.default.createServer(app);\nvar io = socketio(http, { path: '/chatbox', serveClient: false });\nvar MongoClient = _mongodb2.default.MongoClient;\nvar myxss = new _xss2.default.FilterXSS(options);\n\nvar InsertUser = function () {\n\tvar _ref = _asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee(username, passwordHash) {\n\t\tvar client, db, collection, is_user, insert_user;\n\t\treturn regeneratorRuntime.wrap(function _callee$(_context) {\n\t\t\twhile (1) {\n\t\t\t\tswitch (_context.prev = _context.next) {\n\t\t\t\t\tcase 0:\n\t\t\t\t\t\tclient = void 0;\n\t\t\t\t\t\t_context.prev = 1;\n\t\t\t\t\t\t_context.next = 4;\n\t\t\t\t\t\treturn MongoClient.connect(url);\n\n\t\t\t\t\tcase 4:\n\t\t\t\t\t\tclient = _context.sent;\n\n\t\t\t\t\t\tconsole.log(\"Connected to server\");\n\n\t\t\t\t\t\tdb = client.db(dbName);\n\t\t\t\t\t\tcollection = db.collection('users');\n\t\t\t\t\t\t_context.next = 10;\n\t\t\t\t\t\treturn collection.findOne({\n\t\t\t\t\t\t\tname: username\n\t\t\t\t\t\t});\n\n\t\t\t\t\tcase 10:\n\t\t\t\t\t\tis_user = _context.sent;\n\n\t\t\t\t\t\tif (!is_user) {\n\t\t\t\t\t\t\t_context.next = 16;\n\t\t\t\t\t\t\tbreak;\n\t\t\t\t\t\t}\n\n\t\t\t\t\t\tclient.close();\n\t\t\t\t\t\treturn _context.abrupt('return', 'repeatUser');\n\n\t\t\t\t\tcase 16:\n\t\t\t\t\t\t_assert2.default.equal(null, is_user);\n\n\t\t\t\t\t\t_context.next = 19;\n\t\t\t\t\t\treturn db.collection('users').insertOne({\n\t\t\t\t\t\t\tname: username,\n\t\t\t\t\t\t\tpassword: passwordHash\n\t\t\t\t\t\t}, {\n\t\t\t\t\t\t\tw: 'majority',\n\t\t\t\t\t\t\twtimeout: 1000,\n\t\t\t\t\t\t\tforceServerObjectId: true\n\t\t\t\t\t\t});\n\n\t\t\t\t\tcase 19:\n\t\t\t\t\t\tinsert_user = _context.sent;\n\n\n\t\t\t\t\t\t_assert2.default.equal(1, insert_user.insertedCount);\n\n\t\t\t\t\t\tclient.close();\n\t\t\t\t\t\treturn _context.abrupt('return', 'userSet');\n\n\t\t\t\t\tcase 23:\n\t\t\t\t\t\t_context.next = 28;\n\t\t\t\t\t\tbreak;\n\n\t\t\t\t\tcase 25:\n\t\t\t\t\t\t_context.prev = 25;\n\t\t\t\t\t\t_context.t0 = _context['catch'](1);\n\n\t\t\t\t\t\tconsole.log(_context.t0);\n\n\t\t\t\t\tcase 28:\n\n\t\t\t\t\t\tclient.close();\n\n\t\t\t\t\tcase 29:\n\t\t\t\t\tcase 'end':\n\t\t\t\t\t\treturn _context.stop();\n\t\t\t\t}\n\t\t\t}\n\t\t}, _callee, this, [[1, 25]]);\n\t}));\n\n\treturn function InsertUser(_x, _x2) {\n\t\treturn _ref.apply(this, arguments);\n\t};\n}();\n\nvar GetUserPassword = function () {\n\tvar _ref2 = _asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee2(username, passwordHash) {\n\t\tvar client, db, get_user;\n\t\treturn regeneratorRuntime.wrap(function _callee2$(_context2) {\n\t\t\twhile (1) {\n\t\t\t\tswitch (_context2.prev = _context2.next) {\n\t\t\t\t\tcase 0:\n\t\t\t\t\t\tclient = void 0;\n\t\t\t\t\t\t_context2.prev = 1;\n\t\t\t\t\t\t_context2.next = 4;\n\t\t\t\t\t\treturn MongoClient.connect(url);\n\n\t\t\t\t\tcase 4:\n\t\t\t\t\t\tclient = _context2.sent;\n\n\t\t\t\t\t\tconsole.log(\"Connected to server\");\n\n\t\t\t\t\t\tdb = client.db(dbName);\n\t\t\t\t\t\t_context2.next = 9;\n\t\t\t\t\t\treturn db.collection('users').findOne({\n\t\t\t\t\t\t\tname: username\n\t\t\t\t\t\t});\n\n\t\t\t\t\tcase 9:\n\t\t\t\t\t\tget_user = _context2.sent;\n\n\t\t\t\t\t\tif (!get_user) {\n\t\t\t\t\t\t\t_context2.next = 15;\n\t\t\t\t\t\t\tbreak;\n\t\t\t\t\t\t}\n\n\t\t\t\t\t\tconsole.log(get_user.password);\n\t\t\t\t\t\treturn _context2.abrupt('return', get_user.password);\n\n\t\t\t\t\tcase 15:\n\t\t\t\t\t\tthrow 'incorrect user';\n\n\t\t\t\t\tcase 16:\n\t\t\t\t\t\t_context2.next = 21;\n\t\t\t\t\t\tbreak;\n\n\t\t\t\t\tcase 18:\n\t\t\t\t\t\t_context2.prev = 18;\n\t\t\t\t\t\t_context2.t0 = _context2['catch'](1);\n\t\t\t\t\t\tthrow _context2.t0;\n\n\t\t\t\t\tcase 21:\n\t\t\t\t\t\t;\n\n\t\t\t\t\tcase 22:\n\t\t\t\t\tcase 'end':\n\t\t\t\t\t\treturn _context2.stop();\n\t\t\t\t}\n\t\t\t}\n\t\t}, _callee2, this, [[1, 18]]);\n\t}));\n\n\treturn function GetUserPassword(_x3, _x4) {\n\t\treturn _ref2.apply(this, arguments);\n\t};\n}();\n\napp.get('/chatbox', function (req, res) {\n\tres.sendFile(path.join(__dirname, '/index.html'));\n});\n\napp.get('/chatbox/resources/socketjs', function (req, res) {\n\tconsole.log('send js file');\n\tres.sendFile(path.join(__dirname, '/node_modules/socket.io-client/dist/socket.io.js'));\n});\n\nio.use(function (socket, next) {\n\tconsole.log('socket connection');\n\treturn next();\n});\n\nio.on('connection', function (socket) {\n\tconsole.log('A user connected');\n\n\tsocket.on('getUser', function (data) {\n\t\tconsole.log(data.password);\n\t\tGetUserPassword(data.username).then(function (password) {\n\t\t\treturn _bcrypt2.default.compare(data.password, password);\n\t\t}).then(function (res) {\n\t\t\tif (res) {\n\t\t\t\tsocket.emit('userSet', { username: data.username });\n\t\t\t} else {\n\t\t\t\t_bcrypt2.default.hash(data.password, saltRounds).then(function (hash) {\n\t\t\t\t\tconsole.log(hash);\n\t\t\t\t});\n\t\t\t\tconsole.log(data.password);\n\t\t\t\tthrow 'incorrect password';\n\t\t\t};\n\t\t}).catch(function (err) {\n\t\t\tif (err == 'incorrect user' || err == 'incorrect password') {\n\t\t\t\tconsole.log(err);\n\t\t\t\tsocket.emit('badUser', { username: data.username });\n\t\t\t} else {\n\t\t\t\tconsole.log(err);\n\t\t\t}\n\t\t});\n\t});\n\n\tsocket.on('signUp', function (data) {\n\t\t_bcrypt2.default.hash(data.password, saltRounds).then(function (hash) {\n\t\t\treturn InsertUser(data.username, hash);\n\t\t}).then(function (result) {\n\t\t\tsocket.emit(result, { username: data.username });\n\t\t});\n\t});\n\n\tsocket.on('msg', function (data) {\n\t\tio.sockets.emit('newmsg', { user: myxss.process(data.user), message: myxss.process(data.message) });\n\t});\n\n\tsocket.on('disconnect', function () {\n\t\tconsole.log('disconnected');\n\t});\n});\n\nhttp.listen(port, function () {\n\tconsole.log('listening on port ' + port);\n});\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImFwcC5iZXRhLmpzIl0sIm5hbWVzIjpbInNvY2tldGlvIiwicmVxdWlyZSIsInBhdGgiLCJzYWx0Um91bmRzIiwidXJsIiwiZGJOYW1lIiwib3B0aW9ucyIsIndoaXRlTGlzdCIsImEiLCJiIiwiaSIsInUiLCJzIiwicG9ydCIsImFwcCIsImh0dHAiLCJjcmVhdGVTZXJ2ZXIiLCJpbyIsInNlcnZlQ2xpZW50IiwiTW9uZ29DbGllbnQiLCJteXhzcyIsIkZpbHRlclhTUyIsIkluc2VydFVzZXIiLCJ1c2VybmFtZSIsInBhc3N3b3JkSGFzaCIsImNsaWVudCIsImNvbm5lY3QiLCJjb25zb2xlIiwibG9nIiwiZGIiLCJjb2xsZWN0aW9uIiwiZmluZE9uZSIsIm5hbWUiLCJpc191c2VyIiwiY2xvc2UiLCJlcXVhbCIsImluc2VydE9uZSIsInBhc3N3b3JkIiwidyIsInd0aW1lb3V0IiwiZm9yY2VTZXJ2ZXJPYmplY3RJZCIsImluc2VydF91c2VyIiwiaW5zZXJ0ZWRDb3VudCIsIkdldFVzZXJQYXNzd29yZCIsImdldF91c2VyIiwiZ2V0IiwicmVxIiwicmVzIiwic2VuZEZpbGUiLCJqb2luIiwiX19kaXJuYW1lIiwidXNlIiwic29ja2V0IiwibmV4dCIsIm9uIiwiZGF0YSIsInRoZW4iLCJjb21wYXJlIiwiZW1pdCIsImhhc2giLCJjYXRjaCIsImVyciIsInJlc3VsdCIsInNvY2tldHMiLCJ1c2VyIiwicHJvY2VzcyIsIm1lc3NhZ2UiLCJsaXN0ZW4iXSwibWFwcGluZ3MiOiI7O0FBQUE7Ozs7QUFDQTs7OztBQUVBOzs7O0FBQ0E7Ozs7QUFDQTs7OztBQUNBOzs7O0FBQ0E7Ozs7Ozs7O0FBTEEsSUFBSUEsV0FBV0MsUUFBUSxXQUFSLENBQWY7OztBQU9BLElBQU1DLE9BQU9ELFFBQVEsTUFBUixDQUFiO0FBQ0EsSUFBTUUsYUFBYSxFQUFuQjtBQUNBLElBQU1DLE1BQU0sMkJBQVo7QUFDQSxJQUFNQyxTQUFTLFNBQWY7QUFDQSxJQUFNQyxVQUFVO0FBQ2ZDLFlB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TTVDLE1BQU02QyxPQUFOLENBQWNWLEtBQUtTLElBQW5CLENBQVAsRUFBaUNFLFNBQVM5QyxNQUFNNkMsT0FBTixDQUFjVixLQUFLVyxPQUFuQixDQUExQyxFQUExQjtBQUNBLEVBRkQ7O0FBSUFkLFFBQU9FLEVBQVAsQ0FBVSxZQUFWLEVBQXdCLFlBQVU7QUFDakMzQixVQUFRQyxHQUFSLENBQVksY0FBWjtBQUNBLEVBRkQ7QUFHQSxDQTNDRDs7QUE4Q0FiLEtBQUtvRCxNQUFMLENBQVl0RCxJQUFaLEVBQWtCLFlBQU07QUFDdEJjLFNBQVFDLEdBQVIsQ0FBWSx1QkFBdUJmLElBQW5DO0FBQ0QsQ0FGRCIsImZpbGUiOiJhcHAuYmV0YS5qcyIsInNvdXJjZVJvb3QiOiIvaG9tZS91YnVudHUvY2hhdGJveCIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBleHByZXNzIGZyb20gJ2V4cHJlc3MnO1xuaW1wb3J0IEhUVFAgZnJvbSAnaHR0cCc7XG52YXIgc29ja2V0aW8gPSByZXF1aXJlKCdzb2NrZXQuaW8nKTtcbmltcG9ydCByZXEgZnJvbSAncmVxdWVzdCc7XG5pbXBvcnQgYmNyeXB0IGZyb20gJ2JjcnlwdCc7XG5pbXBvcnQgeHNzIGZyb20gJ3hzcyc7XG5pbXBvcnQgYXNzZXJ0IGZyb20gJ2Fzc2VydCc7XG5pbXBvcnQgTW9uZ28gZnJvbSAnbW9uZ29kYic7XG5cbmNvbnN0IHBhdGggPSByZXF1aXJlKCdwYXRoJyk7XG5jb25zdCBzYWx0Um91bmRzID0gMTA7XG5jb25zdCB1cmwgPSAnbW9uZ29kYjovL2xvY2FsaG9zdDoyNzAxNyc7XG5jb25zdCBkYk5hbWUgPSAnY2hhdGJveCc7XG5jb25zdCBvcHRpb25zID0ge1xuXHR3aGl0ZUxpc3Q6IHtcblx0XHRhOiBbJ2hyZWYnLCAndGl0bGUnLCAndGFyZ2V0J10sXG5cdFx0YjogdHJ1ZSxcblx0XHRpOiB0cnVlLFxuXHRcdHU6IHRydWUsXG5cdFx0czogdHJ1ZVxuXHR9XG59O1xuY29uc3QgcG9ydCA9IDgwODA7XG5cbmNvbnN0IGFwcCA9IGV4cHJlc3MoKTtcbmNvbnN0IGh0dHAgPSBIVFRQLmNyZWF0ZVNlcnZlcihhcHApO1xuY29uc3QgaW8gPSBzb2NrZXRpbyhodHRwLCB7cGF0aDogJy9jaGF0Ym94Jywgc2VydmVDbGllbnQ6IGZhbHNlfSk7XG5jb25zdCBNb25nb0NsaWVudCA9IE1vbmdvLk1vbmdvQ2xpZW50O1xuY29uc3QgbXl4c3MgPSBuZXcgeHNzLkZpbHRlclhTUyhvcHRpb25zKTtcblxuY29uc3QgSW5zZXJ0VXNlciA9IGFzeW5jIGZ1bmN0aW9uKHVzZXJuYW1lLCBwYXNzd29yZEhhc2gpe1xuXHRsZXQgY2xpZW50O1xuXHR0cnkge1xuXHRcdGNsaWVudCA9IGF3YWl0IE1vbmdvQ2xpZW50LmNvbm5lY3QodXJsKTtcblx0XHRjb25zb2xlLmxvZyhcIkNvbm5lY3RlZCB0byBzZXJ2ZXJcIik7XG5cblx0XHRjb25zdCBkYiA9IGNsaWVudC5kYihkYk5hbWUpO1xuXHRcdGNvbnN0IGNvbGxlY3Rpb24gPSBkYi5jb2xsZWN0aW9uKCd1c2VycycpO1xuXG5cdFx0bGV0IGlzX3VzZXIgPSBhd2FpdCBjb2xsZWN0aW9uLmZpbmRPbmUoe1xuXHRcdFx0bmFtZTogdXNlcm5hbWVcblx0XHR9KTtcblxuXHRcdGlmKGlzX3VzZXIpe1xuXHRcdFx0Y2xpZW50LmNsb3NlKCk7XG5cdFx0XHRyZXR1cm4gJ3JlcGVhdFVzZXInO1xuXHRcdH0gZWxzZSB7XG5cdFx0XHRhc3NlcnQuZXF1YWwobnVsbCwgaXNfdXNlcik7XG5cblx0XHRcdGxldCBpbnNlcnRfdXNlciA9IGF3YWl0IGRiLmNvbGxlY3Rpb24oJ3VzZXJzJykuaW5zZXJ0T25lKHtcblx0XHRcdFx0ICBuYW1lOiB1c2VybmFtZSxcblx0XHRcdFx0ICBwYXNzd29yZDogcGFzc3dvcmRIYXNoXG5cdFx0XHQgIH0sIHtcblx0XHRcdFx0ICB3OiAnbWFqb3JpdHknLFxuXHRcdFx0XHQgIHd0aW1lb3V0OiAxMDAwLFxuXHRcdFx0XHQgIGZvcmNlU2VydmVyT2JqZWN0SWQ6IHRydWVcblx0XHRcdCAgfVxuXHRcdCAgKTtcblxuXHRcdFx0YXNzZXJ0LmVxdWFsKDEsIGluc2VydF91c2VyLmluc2VydGVkQ291bnQpO1xuXG5cdFx0XHRjbGllbnQuY2xvc2UoKTtcblx0XHRcdHJldHVybiAndXNlclNldCc7XG5cdFx0fVxuXHR9IGNhdGNoIChlcnIpIHtcblx0XHRjb25zb2xlLmxvZyhlcnIpO1xuXHR9XG5cblx0Y2xpZW50LmNsb3NlKCk7XG59O1xuXG5jb25zdCBHZXRVc2VyUGFzc3dvcmQgPSBhc3luYyBmdW5jdGlvbih1c2VybmFtZSwgcGFzc3dvcmRIYXNoKXtcblx0bGV0IGNsaWVudDtcblx0dHJ5IHtcblx0XHRjbGllbnQgPSBhd2FpdCBNb25nb0NsaWVudC5jb25uZWN0KHVybCk7XG5cdFx0Y29uc29sZS5sb2coXCJDb25uZWN0ZWQgdG8gc2VydmVyXCIpO1xuXG5cdFx0Y29uc3QgZGIgPSBjbGllbnQuZGIoZGJOYW1lKTtcblxuXHRcdGxldCBnZXRfdXNlciA9IGF3YWl0IGRiLmNvbGxlY3Rpb24oJ3VzZXJzJykuZmluZE9uZSh7XG5cdFx0XHRuYW1lOiB1c2VybmFtZVxuXHRcdH0pO1xuXHRcdGlmKGdldF91c2VyKXtcblx0XHRjb25zb2xlLmxvZyhnZXRfdXNlci5wYXNzd29yZCk7XG5cdFx0cmV0dXJuIGdldF91c2VyLnBhc3N3b3JkOyBcblx0XHR9XG5cdFx0ZWxzZXtcblx0XHR0aHJvdyAnaW5jb3JyZWN0IHVzZXInO1xuXHRcdH1cblx0fSBjYXRjaChlcnIpIHtcblx0XHR0aHJvdyBlcnI7XG5cdH07XG59XG5cbmFwcC5nZXQoJy9jaGF0Ym94JywgKHJlcSwgcmVzKSA9PiB7XG5cdHJlcy5zZW5kRmlsZShwYXRoLmpvaW4oX19kaXJuYW1lLCAnL2luZGV4Lmh0bWwnKSk7XG59KTtcblxuYXBwLmdldCgnL2NoYXRib3gvcmVzb3VyY2VzL3NvY2tldGpzJywgZnVuY3Rpb24ocmVxLCByZXMpIHtcbiAgY29uc29sZS5sb2coJ3NlbmQganMgZmlsZScpO1xuICByZXMuc2VuZEZpbGUocGF0aC5qb2luKF9fZGlybmFtZSwgJy9ub2RlX21vZHVsZXMvc29ja2V0LmlvLWNsaWVudC9kaXN0L3NvY2tldC5pby5qcycpKTtcbn0pO1xuXG5cbmlvLnVzZSgoc29ja2V0LCBuZXh0KSA9PiB7XG4gIGNvbnNvbGUubG9nKCdzb2NrZXQgY29ubmVjdGlvbicpO1xuICByZXR1cm4gbmV4dCgpO1xufSk7XG5cbmlvLm9uKCdjb25uZWN0aW9uJywgKHNvY2tldCkgPT4ge1xuXHRjb25zb2xlLmxvZygnQSB1c2VyIGNvbm5lY3RlZCcpO1xuXG5cdHNvY2tldC5vbignZ2V0VXNlcicsIChkYXRhKSA9PiB7XG5jb25zb2xlLmxvZyhkYXRhLnBhc3N3b3JkKTtcblx0XHRHZXRVc2VyUGFzc3dvcmQoZGF0YS51c2VybmFtZSkudGhlbigocGFzc3dvcmQpID0+IChcblx0XHRcdGJjcnlwdC5jb21wYXJlKGRhdGEucGFzc3dvcmQsIHBhc3N3b3JkKVxuXHRcdCkpLnRoZW4oKHJlcykgPT4ge1xuXHRcdFx0aWYocmVzKXtcblx0XHRcdFx0c29ja2V0LmVtaXQoJ3VzZXJTZXQnLCB7dXNlcm5hbWU6IGRhdGEudXNlcm5hbWV9KVxuXHRcdFx0fVxuXHRcdFx0ZWxzZSB7XG5cdFx0XHRcdGJjcnlwdC5oYXNoKGRhdGEucGFzc3dvcmQsIHNhbHRSb3VuZHMpLnRoZW4oKGhhc2gpID0+IHtcblx0XHRcdFx0Y29uc29sZS5sb2coaGFzaCk7XG5cdFx0XHRcdH0pO1xuXHRcdFx0XHRjb25zb2xlLmxvZyhkYXRhLnBhc3N3b3JkKTtcblx0XHRcdFx0dGhyb3coJ2luY29ycmVjdCBwYXNzd29yZCcpfTtcblx0XHR9KS5jYXRjaCgoZXJyKSA9PiB7XG5cdFx0XHRpZihlcnIgPT0gJ2luY29ycmVjdCB1c2VyJyB8fCBlcnIgPT0gJ2luY29ycmVjdCBwYXNzd29yZCcpe1xuXHRcdFx0XHRjb25zb2xlLmxvZyhlcnIpO1xuXHRcdFx0XHRzb2NrZXQuZW1pdCgnYmFkVXNlcicsIHt1c2VybmFtZTogZGF0YS51c2VybmFtZX0pO1xuXHRcdFx0fVxuXHRcdFx0ZWxzZXtcblx0XHRcdFx0Y29uc29sZS5sb2coZXJyKTtcblx0XHRcdH1cblx0XHR9KTtcblx0fSk7XG5cblx0c29ja2V0Lm9uKCdzaWduVXAnLCBmdW5jdGlvbihkYXRhKXtcblx0XHRiY3J5cHQuaGFzaChkYXRhLnBhc3N3b3JkLCBzYWx0Um91bmRzKS50aGVuKChoYXNoKSA9PiAoXG5cdFx0XHRJbnNlcnRVc2VyKGRhdGEudXNlcm5hbWUsIGhhc2gpXG5cdFx0KSkudGhlbigocmVzdWx0KSA9PiB7XG5cdFx0XHRzb2NrZXQuZW1pdChyZXN1bHQsIHt1c2VybmFtZTogZGF0YS51c2VybmFtZX0pO1xuXHRcdH0pO1xuXHR9KTtcblxuXHRzb2NrZXQub24oJ21zZycsIChkYXRhKSA9PiB7XG5cdFx0aW8uc29ja2V0cy5lbWl0KCduZXdtc2cnLCB7dXNlcjogbXl4c3MucHJvY2VzcyhkYXRhLnVzZXIpLCBtZXNzYWdlOiBteXhzcy5wcm9jZXNzKGRhdGEubWVzc2FnZSl9KTtcblx0fSk7XG5cblx0c29ja2V0Lm9uKCdkaXNjb25uZWN0JywgZnVuY3Rpb24oKXtcblx0XHRjb25zb2xlLmxvZygnZGlzY29ubmVjdGVkJyk7XG5cdH0pO1xufSk7XG5cblxuaHR0cC5saXN0ZW4ocG9ydCwgKCkgPT4ge1xuICBjb25zb2xlLmxvZygnbGlzdGVuaW5nIG9uIHBvcnQgJyArIHBvcnQpO1xufSk7XG4iXX0=",
+    "ast": null,
+    "map": {
+      "version": 3,
+      "sources": [
+        "app.beta.js"
+      ],
+      "names": [
+        "socketio",
+        "require",
+        "path",
+        "saltRounds",
+        "url",
+        "dbName",
+        "options",
+        "whiteList",
+        "a",
+        "b",
+        "i",
+        "u",
+        "s",
+        "port",
+        "app",
+        "http",
+        "createServer",
+        "io",
+        "serveClient",
+        "MongoClient",
+        "myxss",
+        "FilterXSS",
+        "InsertUser",
+        "username",
+        "passwordHash",
+        "client",
+        "connect",
+        "console",
+        "log",
+        "db",
+        "collection",
+        "findOne",
+        "name",
+        "is_user",
+        "close",
+        "equal",
+        "insertOne",
+        "password",
+        "w",
+        "wtimeout",
+        "forceServerObjectId",
+        "insert_user",
+        "insertedCount",
+        "GetUserPassword",
+        "get_user",
+        "get",
+        "req",
+        "res",
+        "sendFile",
+        "join",
+        "__dirname",
+        "use",
+        "socket",
+        "next",
+        "on",
+        "data",
+        "then",
+        "compare",
+        "emit",
+        "hash",
+        "catch",
+        "err",
+        "result",
+        "sockets",
+        "user",
+        "process",
+        "message",
+        "listen"
+      ],
+      "mappings": "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",
+      "file": "app.beta.js",
+      "sourceRoot": "/home/ubuntu/chatbox",
+      "sourcesContent": [
+        "import express from 'express';\nimport HTTP from 'http';\nvar socketio = require('socket.io');\nimport req from 'request';\nimport bcrypt from 'bcrypt';\nimport xss from 'xss';\nimport assert from 'assert';\nimport Mongo from 'mongodb';\n\nconst path = require('path');\nconst saltRounds = 10;\nconst url = 'mongodb://localhost:27017';\nconst dbName = 'chatbox';\nconst options = {\n\twhiteList: {\n\t\ta: ['href', 'title', 'target'],\n\t\tb: true,\n\t\ti: true,\n\t\tu: true,\n\t\ts: true\n\t}\n};\nconst port = 8080;\n\nconst app = express();\nconst http = HTTP.createServer(app);\nconst io = socketio(http, {path: '/chatbox', serveClient: false});\nconst MongoClient = Mongo.MongoClient;\nconst myxss = new xss.FilterXSS(options);\n\nconst InsertUser = async function(username, passwordHash){\n\tlet client;\n\ttry {\n\t\tclient = await MongoClient.connect(url);\n\t\tconsole.log(\"Connected to server\");\n\n\t\tconst db = client.db(dbName);\n\t\tconst collection = db.collection('users');\n\n\t\tlet is_user = await collection.findOne({\n\t\t\tname: username\n\t\t});\n\n\t\tif(is_user){\n\t\t\tclient.close();\n\t\t\treturn 'repeatUser';\n\t\t} else {\n\t\t\tassert.equal(null, is_user);\n\n\t\t\tlet insert_user = await db.collection('users').insertOne({\n\t\t\t\t  name: username,\n\t\t\t\t  password: passwordHash\n\t\t\t  }, {\n\t\t\t\t  w: 'majority',\n\t\t\t\t  wtimeout: 1000,\n\t\t\t\t  forceServerObjectId: true\n\t\t\t  }\n\t\t  );\n\n\t\t\tassert.equal(1, insert_user.insertedCount);\n\n\t\t\tclient.close();\n\t\t\treturn 'userSet';\n\t\t}\n\t} catch (err) {\n\t\tconsole.log(err);\n\t}\n\n\tclient.close();\n};\n\nconst GetUserPassword = async function(username, passwordHash){\n\tlet client;\n\ttry {\n\t\tclient = await MongoClient.connect(url);\n\t\tconsole.log(\"Connected to server\");\n\n\t\tconst db = client.db(dbName);\n\n\t\tlet get_user = await db.collection('users').findOne({\n\t\t\tname: username\n\t\t});\n\t\tif(get_user){\n\t\tconsole.log(get_user.password);\n\t\treturn get_user.password; \n\t\t}\n\t\telse{\n\t\tthrow 'incorrect user';\n\t\t}\n\t} catch(err) {\n\t\tthrow err;\n\t};\n}\n\napp.get('/chatbox', (req, res) => {\n\tres.sendFile(path.join(__dirname, '/index.html'));\n});\n\napp.get('/chatbox/resources/socketjs', function(req, res) {\n  console.log('send js file');\n  res.sendFile(path.join(__dirname, '/node_modules/socket.io-client/dist/socket.io.js'));\n});\n\n\nio.use((socket, next) => {\n  console.log('socket connection');\n  return next();\n});\n\nio.on('connection', (socket) => {\n\tconsole.log('A user connected');\n\n\tsocket.on('getUser', (data) => {\nconsole.log(data.password);\n\t\tGetUserPassword(data.username).then((password) => (\n\t\t\tbcrypt.compare(data.password, password)\n\t\t)).then((res) => {\n\t\t\tif(res){\n\t\t\t\tsocket.emit('userSet', {username: data.username})\n\t\t\t}\n\t\t\telse {\n\t\t\t\tbcrypt.hash(data.password, saltRounds).then((hash) => {\n\t\t\t\tconsole.log(hash);\n\t\t\t\t});\n\t\t\t\tconsole.log(data.password);\n\t\t\t\tthrow('incorrect password')};\n\t\t}).catch((err) => {\n\t\t\tif(err == 'incorrect user' || err == 'incorrect password'){\n\t\t\t\tconsole.log(err);\n\t\t\t\tsocket.emit('badUser', {username: data.username});\n\t\t\t}\n\t\t\telse{\n\t\t\t\tconsole.log(err);\n\t\t\t}\n\t\t});\n\t});\n\n\tsocket.on('signUp', function(data){\n\t\tbcrypt.hash(data.password, saltRounds).then((hash) => (\n\t\t\tInsertUser(data.username, hash)\n\t\t)).then((result) => {\n\t\t\tsocket.emit(result, {username: data.username});\n\t\t});\n\t});\n\n\tsocket.on('msg', (data) => {\n\t\tio.sockets.emit('newmsg', {user: myxss.process(data.user), message: myxss.process(data.message)});\n\t});\n\n\tsocket.on('disconnect', function(){\n\t\tconsole.log('disconnected');\n\t});\n});\n\n\nhttp.listen(port, () => {\n  console.log('listening on port ' + port);\n});\n"
+      ]
+    },
+    "mtime": 1519701053468
+  },
+  "{\"filename\":\"/home/ubuntu/chatbox/app.js\",\"env\":{},\"retainLines\":false,\"highlightCode\":true,\"suppressDeprecationMessages\":false,\"presets\":[],\"plugins\":[[[],{\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}]],\"ignore\":[],\"code\":true,\"metadata\":true,\"ast\":true,\"comments\":true,\"compact\":\"auto\",\"minified\":false,\"sourceRoot\":\"/home/ubuntu/chatbox\",\"babelrc\":true,\"sourceType\":\"module\",\"moduleIds\":false,\"passPerPreset\":false,\"parserOpts\":false,\"generatorOpts\":false}:6.26.0": {
+    "metadata": {
+      "usedHelpers": [
+        "asyncToGenerator",
+        "interopRequireDefault"
+      ],
+      "marked": [],
+      "modules": {
+        "imports": [
+          {
+            "source": "express",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "express"
+              }
+            ]
+          },
+          {
+            "source": "http",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "HTTP"
+              }
+            ]
+          },
+          {
+            "source": "request",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "req"
+              }
+            ]
+          },
+          {
+            "source": "bcrypt",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "bcrypt"
+              }
+            ]
+          },
+          {
+            "source": "xss",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "xss"
+              }
+            ]
+          },
+          {
+            "source": "assert",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "assert"
+              }
+            ]
+          },
+          {
+            "source": "mongodb",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "Mongo"
+              }
+            ]
+          }
+        ],
+        "exports": {
+          "exported": [],
+          "specifiers": []
+        }
+      }
+    },
+    "options": {
+      "filename": "/home/ubuntu/chatbox/app.js",
+      "filenameRelative": "/home/ubuntu/chatbox/app.js",
+      "env": {},
+      "retainLines": false,
+      "highlightCode": true,
+      "suppressDeprecationMessages": false,
+      "presets": [],
+      "plugins": [
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ]
+      ],
+      "ignore": [],
+      "code": true,
+      "metadata": true,
+      "ast": false,
+      "comments": true,
+      "compact": "auto",
+      "minified": false,
+      "sourceMaps": "both",
+      "sourceMapTarget": "app.js",
+      "sourceFileName": "app.js",
+      "sourceRoot": "/home/ubuntu/chatbox",
+      "babelrc": false,
+      "sourceType": "module",
+      "moduleRoot": "/home/ubuntu/chatbox",
+      "moduleIds": false,
+      "passPerPreset": false,
+      "parserOpts": false,
+      "generatorOpts": false,
+      "basename": "app"
+    },
+    "ignored": false,
+    "code": "'use strict';\n\nvar _express = require('express');\n\nvar _express2 = _interopRequireDefault(_express);\n\nvar _http = require('http');\n\nvar _http2 = _interopRequireDefault(_http);\n\nvar _request = require('request');\n\nvar _request2 = _interopRequireDefault(_request);\n\nvar _bcrypt = require('bcrypt');\n\nvar _bcrypt2 = _interopRequireDefault(_bcrypt);\n\nvar _xss = require('xss');\n\nvar _xss2 = _interopRequireDefault(_xss);\n\nvar _assert = require('assert');\n\nvar _assert2 = _interopRequireDefault(_assert);\n\nvar _mongodb = require('mongodb');\n\nvar _mongodb2 = _interopRequireDefault(_mongodb);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction _asyncToGenerator(fn) { return function () { var gen = fn.apply(this, arguments); return new Promise(function (resolve, reject) { function step(key, arg) { try { var info = gen[key](arg); var value = info.value; } catch (error) { reject(error); return; } if (info.done) { resolve(value); } else { return Promise.resolve(value).then(function (value) { step(\"next\", value); }, function (err) { step(\"throw\", err); }); } } return step(\"next\"); }); }; }\n\nvar socketio = require('socket.io');\n\n\nvar path = require('path');\nvar saltRounds = 10;\nvar url = 'mongodb://localhost:27017';\nvar dbName = 'chatbox';\nvar options = {\n\twhiteList: {\n\t\ta: ['href', 'title', 'target'],\n\t\tb: true,\n\t\ti: true,\n\t\tu: true,\n\t\ts: true\n\t}\n};\nvar port = 8080;\n\nvar app = (0, _express2.default)();\nvar http = _http2.default.createServer(app);\nvar io = socketio(http, { path: '/chatbox', serveClient: false });\nvar MongoClient = _mongodb2.default.MongoClient;\nvar myxss = new _xss2.default.FilterXSS(options);\n\nvar InsertUser = function () {\n\tvar _ref = _asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee(username, passwordHash) {\n\t\tvar client, db, collection, is_user, insert_user;\n\t\treturn regeneratorRuntime.wrap(function _callee$(_context) {\n\t\t\twhile (1) {\n\t\t\t\tswitch (_context.prev = _context.next) {\n\t\t\t\t\tcase 0:\n\t\t\t\t\t\tclient = void 0;\n\t\t\t\t\t\t_context.prev = 1;\n\t\t\t\t\t\t_context.next = 4;\n\t\t\t\t\t\treturn MongoClient.connect(url);\n\n\t\t\t\t\tcase 4:\n\t\t\t\t\t\tclient = _context.sent;\n\n\t\t\t\t\t\tconsole.log(\"Connected to server\");\n\n\t\t\t\t\t\tdb = client.db(dbName);\n\t\t\t\t\t\tcollection = db.collection('users');\n\t\t\t\t\t\t_context.next = 10;\n\t\t\t\t\t\treturn collection.findOne({\n\t\t\t\t\t\t\tname: username\n\t\t\t\t\t\t});\n\n\t\t\t\t\tcase 10:\n\t\t\t\t\t\tis_user = _context.sent;\n\n\t\t\t\t\t\tif (!is_user) {\n\t\t\t\t\t\t\t_context.next = 16;\n\t\t\t\t\t\t\tbreak;\n\t\t\t\t\t\t}\n\n\t\t\t\t\t\tclient.close();\n\t\t\t\t\t\treturn _context.abrupt('return', 'repeatUser');\n\n\t\t\t\t\tcase 16:\n\t\t\t\t\t\t_assert2.default.equal(null, is_user);\n\n\t\t\t\t\t\t_context.next = 19;\n\t\t\t\t\t\treturn db.collection('users').insertOne({\n\t\t\t\t\t\t\tname: username,\n\t\t\t\t\t\t\tpassword: passwordHash\n\t\t\t\t\t\t}, {\n\t\t\t\t\t\t\tw: 'majority',\n\t\t\t\t\t\t\twtimeout: 1000,\n\t\t\t\t\t\t\tforceServerObjectId: true\n\t\t\t\t\t\t});\n\n\t\t\t\t\tcase 19:\n\t\t\t\t\t\tinsert_user = _context.sent;\n\n\n\t\t\t\t\t\t_assert2.default.equal(1, insert_user.insertedCount);\n\n\t\t\t\t\t\tclient.close();\n\t\t\t\t\t\treturn _context.abrupt('return', 'userSet');\n\n\t\t\t\t\tcase 23:\n\t\t\t\t\t\t_context.next = 28;\n\t\t\t\t\t\tbreak;\n\n\t\t\t\t\tcase 25:\n\t\t\t\t\t\t_context.prev = 25;\n\t\t\t\t\t\t_context.t0 = _context['catch'](1);\n\n\t\t\t\t\t\tconsole.log(_context.t0);\n\n\t\t\t\t\tcase 28:\n\n\t\t\t\t\t\tclient.close();\n\n\t\t\t\t\tcase 29:\n\t\t\t\t\tcase 'end':\n\t\t\t\t\t\treturn _context.stop();\n\t\t\t\t}\n\t\t\t}\n\t\t}, _callee, this, [[1, 25]]);\n\t}));\n\n\treturn function InsertUser(_x, _x2) {\n\t\treturn _ref.apply(this, arguments);\n\t};\n}();\n\nvar GetUserPassword = function () {\n\tvar _ref2 = _asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee2(username, passwordHash) {\n\t\tvar client, db, get_user;\n\t\treturn regeneratorRuntime.wrap(function _callee2$(_context2) {\n\t\t\twhile (1) {\n\t\t\t\tswitch (_context2.prev = _context2.next) {\n\t\t\t\t\tcase 0:\n\t\t\t\t\t\tclient = void 0;\n\t\t\t\t\t\t_context2.prev = 1;\n\t\t\t\t\t\t_context2.next = 4;\n\t\t\t\t\t\treturn MongoClient.connect(url);\n\n\t\t\t\t\tcase 4:\n\t\t\t\t\t\tclient = _context2.sent;\n\n\t\t\t\t\t\tconsole.log(\"Connected to server\");\n\n\t\t\t\t\t\tdb = client.db(dbName);\n\t\t\t\t\t\t_context2.next = 9;\n\t\t\t\t\t\treturn db.collection('users').findOne({\n\t\t\t\t\t\t\tname: username\n\t\t\t\t\t\t});\n\n\t\t\t\t\tcase 9:\n\t\t\t\t\t\tget_user = _context2.sent;\n\n\t\t\t\t\t\tif (!get_user) {\n\t\t\t\t\t\t\t_context2.next = 14;\n\t\t\t\t\t\t\tbreak;\n\t\t\t\t\t\t}\n\n\t\t\t\t\t\treturn _context2.abrupt('return', get_user.password);\n\n\t\t\t\t\tcase 14:\n\t\t\t\t\t\tthrow 'incorrect user';\n\n\t\t\t\t\tcase 15:\n\t\t\t\t\t\t_context2.next = 20;\n\t\t\t\t\t\tbreak;\n\n\t\t\t\t\tcase 17:\n\t\t\t\t\t\t_context2.prev = 17;\n\t\t\t\t\t\t_context2.t0 = _context2['catch'](1);\n\t\t\t\t\t\tthrow _context2.t0;\n\n\t\t\t\t\tcase 20:\n\t\t\t\t\t\t;\n\n\t\t\t\t\tcase 21:\n\t\t\t\t\tcase 'end':\n\t\t\t\t\t\treturn _context2.stop();\n\t\t\t\t}\n\t\t\t}\n\t\t}, _callee2, this, [[1, 17]]);\n\t}));\n\n\treturn function GetUserPassword(_x3, _x4) {\n\t\treturn _ref2.apply(this, arguments);\n\t};\n}();\n\napp.get('/chatbox', function (req, res) {\n\tres.sendFile(path.join(__dirname, '/index.html'));\n});\n\napp.get('/chatbox/resources/socketjs', function (req, res) {\n\tconsole.log('send js file');\n\tres.sendFile(path.join(__dirname, '/node_modules/socket.io-client/dist/socket.io.js'));\n});\n\nio.use(function (socket, next) {\n\tconsole.log('socket connection');\n\treturn next();\n});\n\nio.on('connection', function (socket) {\n\tconsole.log('A user connected');\n\n\tsocket.on('getUser', function (data) {\n\t\tGetUserPassword(data.username).then(function (password) {\n\t\t\treturn _bcrypt2.default.compare(data.password, password);\n\t\t}).then(function (res) {\n\t\t\tif (res) {\n\t\t\t\tsocket.emit('userSet', { username: data.username });\n\t\t\t} else {\n\t\t\t\tthrow 'incorrect password';\n\t\t\t};\n\t\t}).catch(function (err) {\n\t\t\tif (err == 'incorrect user' || err == 'incorrect password') {\n\t\t\t\tconsole.log(err);\n\t\t\t\tsocket.emit('badUser', { username: data.username });\n\t\t\t} else {\n\t\t\t\tconsole.log(err);\n\t\t\t}\n\t\t});\n\t});\n\n\tsocket.on('signUp', function (data) {\n\t\t_bcrypt2.default.hash(data.password, saltRounds).then(function (hash) {\n\t\t\treturn InsertUser(data.username, hash);\n\t\t}).then(function (result) {\n\t\t\tsocket.emit(result, { username: data.username });\n\t\t});\n\t});\n\n\tsocket.on('msg', function (data) {\n\t\tio.sockets.emit('newmsg', { user: myxss.process(data.user), message: myxss.process(data.message) });\n\t});\n\n\tsocket.on('disconnect', function () {\n\t\tconsole.log('disconnected');\n\t});\n});\n\nhttp.listen(port, function () {\n\tconsole.log('listening on port ' + port);\n});\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImFwcC5qcyJdLCJuYW1lcyI6WyJzb2NrZXRpbyIsInJlcXVpcmUiLCJwYXRoIiwic2FsdFJvdW5kcyIsInVybCIsImRiTmFtZSIsIm9wdGlvbnMiLCJ3aGl0ZUxpc3QiLCJhIiwiYiIsImkiLCJ1IiwicyIsInBvcnQiLCJhcHAiLCJodHRwIiwiY3JlYXRlU2VydmVyIiwiaW8iLCJzZXJ2ZUNsaWVudCIsIk1vbmdvQ2xpZW50IiwibXl4c3MiLCJGaWx0ZXJYU1MiLCJJbnNlcnRVc2VyIiwidXNlcm5hbWUiLCJwYXNzd29yZEhhc2giLCJjbGllbnQiLCJjb25uZWN0IiwiY29uc29sZSIsImxvZyIsImRiIiwiY29sbGVjdGlvbiIsImZpbmRPbmUiLCJuYW1lIiwiaXNfdXNlciIsImNsb3NlIiwiZXF1YWwiLCJpbnNlcnRPbmUiLCJwYXNzd29yZCIsInciLCJ3dGltZW91dCIsImZvcmNlU2VydmVyT2JqZWN0SWQiLCJpbnNlcnRfdXNlciIsImluc2VydGVkQ291bnQiLCJHZXRVc2VyUGFzc3dvcmQiLCJnZXRfdXNlciIsImdldCIsInJlcSIsInJlcyIsInNlbmRGaWxlIiwiam9pbiIsIl9fZGlybmFtZSIsInVzZSIsInNvY2tldCIsIm5leHQiLCJvbiIsImRhdGEiLCJ0aGVuIiwiY29tcGFyZSIsImVtaXQiLCJjYXRjaCIsImVyciIsImhhc2giLCJyZXN1bHQiLCJzb2NrZXRzIiwidXNlciIsInByb2Nlc3MiLCJtZXNzYWdlIiwibGlzdGVuIl0sIm1hcHBpbmdzIjoiOztBQUFBOzs7O0FBQ0E7Ozs7QUFFQTs7OztBQUNBOzs7O0FBQ0E7Ozs7QUFDQTs7OztBQUNBOzs7Ozs7OztBQUxBLElBQUlBLFdBQVdDLFFBQVEsV0FBUixDQUFmOzs7QUFPQSxJQUFNQyxPQUFPRCxRQUFRLE1BQVIsQ0FBYjtBQUNBLElBQU1FLGFBQWEsRUFBbkI7QUFDQSxJQUFNQyxNQUFNLDJCQUFaO0FBQ0EsSUFBTUMsU0FBUyxTQUFmO0FBQ0EsSUFBTUMsVUFBVTtBQUNmQyxZQUFXO0FB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R0FBUixDQUFZLHVCQUF1QmYsSUFBbkM7QUFDRCxDQUZEIiwiZmlsZSI6ImFwcC5qcyIsInNvdXJjZVJvb3QiOiIvaG9tZS91YnVudHUvY2hhdGJveCIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBleHByZXNzIGZyb20gJ2V4cHJlc3MnO1xuaW1wb3J0IEhUVFAgZnJvbSAnaHR0cCc7XG52YXIgc29ja2V0aW8gPSByZXF1aXJlKCdzb2NrZXQuaW8nKTtcbmltcG9ydCByZXEgZnJvbSAncmVxdWVzdCc7XG5pbXBvcnQgYmNyeXB0IGZyb20gJ2JjcnlwdCc7XG5pbXBvcnQgeHNzIGZyb20gJ3hzcyc7XG5pbXBvcnQgYXNzZXJ0IGZyb20gJ2Fzc2VydCc7XG5pbXBvcnQgTW9uZ28gZnJvbSAnbW9uZ29kYic7XG5cbmNvbnN0IHBhdGggPSByZXF1aXJlKCdwYXRoJyk7XG5jb25zdCBzYWx0Um91bmRzID0gMTA7XG5jb25zdCB1cmwgPSAnbW9uZ29kYjovL2xvY2FsaG9zdDoyNzAxNyc7XG5jb25zdCBkYk5hbWUgPSAnY2hhdGJveCc7XG5jb25zdCBvcHRpb25zID0ge1xuXHR3aGl0ZUxpc3Q6IHtcblx0XHRhOiBbJ2hyZWYnLCAndGl0bGUnLCAndGFyZ2V0J10sXG5cdFx0YjogdHJ1ZSxcblx0XHRpOiB0cnVlLFxuXHRcdHU6IHRydWUsXG5cdFx0czogdHJ1ZVxuXHR9XG59O1xuY29uc3QgcG9ydCA9IDgwODA7XG5cbmNvbnN0IGFwcCA9IGV4cHJlc3MoKTtcbmNvbnN0IGh0dHAgPSBIVFRQLmNyZWF0ZVNlcnZlcihhcHApO1xuY29uc3QgaW8gPSBzb2NrZXRpbyhodHRwLCB7cGF0aDogJy9jaGF0Ym94Jywgc2VydmVDbGllbnQ6IGZhbHNlfSk7XG5jb25zdCBNb25nb0NsaWVudCA9IE1vbmdvLk1vbmdvQ2xpZW50O1xuY29uc3QgbXl4c3MgPSBuZXcgeHNzLkZpbHRlclhTUyhvcHRpb25zKTtcblxuY29uc3QgSW5zZXJ0VXNlciA9IGFzeW5jIGZ1bmN0aW9uKHVzZXJuYW1lLCBwYXNzd29yZEhhc2gpe1xuXHRsZXQgY2xpZW50O1xuXHR0cnkge1xuXHRcdGNsaWVudCA9IGF3YWl0IE1vbmdvQ2xpZW50LmNvbm5lY3QodXJsKTtcblx0XHRjb25zb2xlLmxvZyhcIkNvbm5lY3RlZCB0byBzZXJ2ZXJcIik7XG5cblx0XHRjb25zdCBkYiA9IGNsaWVudC5kYihkYk5hbWUpO1xuXHRcdGNvbnN0IGNvbGxlY3Rpb24gPSBkYi5jb2xsZWN0aW9uKCd1c2VycycpO1xuXG5cdFx0bGV0IGlzX3VzZXIgPSBhd2FpdCBjb2xsZWN0aW9uLmZpbmRPbmUoe1xuXHRcdFx0bmFtZTogdXNlcm5hbWVcblx0XHR9KTtcblxuXHRcdGlmKGlzX3VzZXIpe1xuXHRcdFx0Y2xpZW50LmNsb3NlKCk7XG5cdFx0XHRyZXR1cm4gJ3JlcGVhdFVzZXInO1xuXHRcdH0gZWxzZSB7XG5cdFx0XHRhc3NlcnQuZXF1YWwobnVsbCwgaXNfdXNlcik7XG5cblx0XHRcdGxldCBpbnNlcnRfdXNlciA9IGF3YWl0IGRiLmNvbGxlY3Rpb24oJ3VzZXJzJykuaW5zZXJ0T25lKHtcblx0XHRcdFx0ICBuYW1lOiB1c2VybmFtZSxcblx0XHRcdFx0ICBwYXNzd29yZDogcGFzc3dvcmRIYXNoXG5cdFx0XHQgIH0sIHtcblx0XHRcdFx0ICB3OiAnbWFqb3JpdHknLFxuXHRcdFx0XHQgIHd0aW1lb3V0OiAxMDAwLFxuXHRcdFx0XHQgIGZvcmNlU2VydmVyT2JqZWN0SWQ6IHRydWVcblx0XHRcdCAgfVxuXHRcdCAgKTtcblxuXHRcdFx0YXNzZXJ0LmVxdWFsKDEsIGluc2VydF91c2VyLmluc2VydGVkQ291bnQpO1xuXG5cdFx0XHRjbGllbnQuY2xvc2UoKTtcblx0XHRcdHJldHVybiAndXNlclNldCc7XG5cdFx0fVxuXHR9IGNhdGNoIChlcnIpIHtcblx0XHRjb25zb2xlLmxvZyhlcnIpO1xuXHR9XG5cblx0Y2xpZW50LmNsb3NlKCk7XG59O1xuXG5jb25zdCBHZXRVc2VyUGFzc3dvcmQgPSBhc3luYyBmdW5jdGlvbih1c2VybmFtZSwgcGFzc3dvcmRIYXNoKXtcblx0bGV0IGNsaWVudDtcblx0dHJ5IHtcblx0XHRjbGllbnQgPSBhd2FpdCBNb25nb0NsaWVudC5jb25uZWN0KHVybCk7XG5cdFx0Y29uc29sZS5sb2coXCJDb25uZWN0ZWQgdG8gc2VydmVyXCIpO1xuXG5cdFx0Y29uc3QgZGIgPSBjbGllbnQuZGIoZGJOYW1lKTtcblxuXHRcdGxldCBnZXRfdXNlciA9IGF3YWl0IGRiLmNvbGxlY3Rpb24oJ3VzZXJzJykuZmluZE9uZSh7XG5cdFx0XHRuYW1lOiB1c2VybmFtZVxuXHRcdH0pO1xuXHRcdGlmKGdldF91c2VyKXtcblx0XHRyZXR1cm4gZ2V0X3VzZXIucGFzc3dvcmQ7IFxuXHRcdH1cblx0XHRlbHNle1xuXHRcdHRocm93ICdpbmNvcnJlY3QgdXNlcic7XG5cdFx0fVxuXHR9IGNhdGNoKGVycikge1xuXHRcdHRocm93IGVycjtcblx0fTtcbn1cblxuYXBwLmdldCgnL2NoYXRib3gnLCAocmVxLCByZXMpID0+IHtcblx0cmVzLnNlbmRGaWxlKHBhdGguam9pbihfX2Rpcm5hbWUsICcvaW5kZXguaHRtbCcpKTtcbn0pO1xuXG5hcHAuZ2V0KCcvY2hhdGJveC9yZXNvdXJjZXMvc29ja2V0anMnLCBmdW5jdGlvbihyZXEsIHJlcykge1xuICBjb25zb2xlLmxvZygnc2VuZCBqcyBmaWxlJyk7XG4gIHJlcy5zZW5kRmlsZShwYXRoLmpvaW4oX19kaXJuYW1lLCAnL25vZGVfbW9kdWxlcy9zb2NrZXQuaW8tY2xpZW50L2Rpc3Qvc29ja2V0LmlvLmpzJykpO1xufSk7XG5cblxuaW8udXNlKChzb2NrZXQsIG5leHQpID0+IHtcbiAgY29uc29sZS5sb2coJ3NvY2tldCBjb25uZWN0aW9uJyk7XG4gIHJldHVybiBuZXh0KCk7XG59KTtcblxuaW8ub24oJ2Nvbm5lY3Rpb24nLCAoc29ja2V0KSA9PiB7XG5cdGNvbnNvbGUubG9nKCdBIHVzZXIgY29ubmVjdGVkJyk7XG5cblx0c29ja2V0Lm9uKCdnZXRVc2VyJywgKGRhdGEpID0+IHtcblx0XHRHZXRVc2VyUGFzc3dvcmQoZGF0YS51c2VybmFtZSkudGhlbigocGFzc3dvcmQpID0+IChcblx0XHRcdGJjcnlwdC5jb21wYXJlKGRhdGEucGFzc3dvcmQsIHBhc3N3b3JkKVxuXHRcdCkpLnRoZW4oKHJlcykgPT4ge1xuXHRcdFx0aWYocmVzKXtcblx0XHRcdFx0c29ja2V0LmVtaXQoJ3VzZXJTZXQnLCB7dXNlcm5hbWU6IGRhdGEudXNlcm5hbWV9KVxuXHRcdFx0fVxuXHRcdFx0ZWxzZSB7XG5cdFx0XHRcdHRocm93KCdpbmNvcnJlY3QgcGFzc3dvcmQnKX07XG5cdFx0fSkuY2F0Y2goKGVycikgPT4ge1xuXHRcdFx0aWYoZXJyID09ICdpbmNvcnJlY3QgdXNlcicgfHwgZXJyID09ICdpbmNvcnJlY3QgcGFzc3dvcmQnKXtcblx0XHRcdFx0Y29uc29sZS5sb2coZXJyKTtcblx0XHRcdFx0c29ja2V0LmVtaXQoJ2JhZFVzZXInLCB7dXNlcm5hbWU6IGRhdGEudXNlcm5hbWV9KTtcblx0XHRcdH1cblx0XHRcdGVsc2V7XG5cdFx0XHRcdGNvbnNvbGUubG9nKGVycik7XG5cdFx0XHR9XG5cdFx0fSk7XG5cdH0pO1xuXG5cdHNvY2tldC5vbignc2lnblVwJywgZnVuY3Rpb24oZGF0YSl7XG5cdFx0YmNyeXB0Lmhhc2goZGF0YS5wYXNzd29yZCwgc2FsdFJvdW5kcykudGhlbigoaGFzaCkgPT4gKFxuXHRcdFx0SW5zZXJ0VXNlcihkYXRhLnVzZXJuYW1lLCBoYXNoKVxuXHRcdCkpLnRoZW4oKHJlc3VsdCkgPT4ge1xuXHRcdFx0c29ja2V0LmVtaXQocmVzdWx0LCB7dXNlcm5hbWU6IGRhdGEudXNlcm5hbWV9KTtcblx0XHR9KTtcblx0fSk7XG5cblx0c29ja2V0Lm9uKCdtc2cnLCAoZGF0YSkgPT4ge1xuXHRcdGlvLnNvY2tldHMuZW1pdCgnbmV3bXNnJywge3VzZXI6IG15eHNzLnByb2Nlc3MoZGF0YS51c2VyKSwgbWVzc2FnZTogbXl4c3MucHJvY2VzcyhkYXRhLm1lc3NhZ2UpfSk7XG5cdH0pO1xuXG5cdHNvY2tldC5vbignZGlzY29ubmVjdCcsIGZ1bmN0aW9uKCl7XG5cdFx0Y29uc29sZS5sb2coJ2Rpc2Nvbm5lY3RlZCcpO1xuXHR9KTtcbn0pO1xuXG5cbmh0dHAubGlzdGVuKHBvcnQsICgpID0+IHtcbiAgY29uc29sZS5sb2coJ2xpc3RlbmluZyBvbiBwb3J0ICcgKyBwb3J0KTtcbn0pO1xuIl19",
+    "ast": null,
+    "map": {
+      "version": 3,
+      "sources": [
+        "app.js"
+      ],
+      "names": [
+        "socketio",
+        "require",
+        "path",
+        "saltRounds",
+        "url",
+        "dbName",
+        "options",
+        "whiteList",
+        "a",
+        "b",
+        "i",
+        "u",
+        "s",
+        "port",
+        "app",
+        "http",
+        "createServer",
+        "io",
+        "serveClient",
+        "MongoClient",
+        "myxss",
+        "FilterXSS",
+        "InsertUser",
+        "username",
+        "passwordHash",
+        "client",
+        "connect",
+        "console",
+        "log",
+        "db",
+        "collection",
+        "findOne",
+        "name",
+        "is_user",
+        "close",
+        "equal",
+        "insertOne",
+        "password",
+        "w",
+        "wtimeout",
+        "forceServerObjectId",
+        "insert_user",
+        "insertedCount",
+        "GetUserPassword",
+        "get_user",
+        "get",
+        "req",
+        "res",
+        "sendFile",
+        "join",
+        "__dirname",
+        "use",
+        "socket",
+        "next",
+        "on",
+        "data",
+        "then",
+        "compare",
+        "emit",
+        "catch",
+        "err",
+        "hash",
+        "result",
+        "sockets",
+        "user",
+        "process",
+        "message",
+        "listen"
+      ],
+      "mappings": ";;AAAA;;;;AACA;;;;AAEA;;;;AACA;;;;AACA;;;;AACA;;;;AACA;;;;;;;;AALA,IAAIA,WAAWC,QAAQ,WAAR,CAAf;;;AAOA,IAAMC,OAAOD,QAAQ,MAAR,CAAb;AACA,IAAME,aAAa,EAAnB;AACA,IAAMC,MAAM,2BAAZ;AACA,IAAMC,SAAS,SAAf;AACA,IAAMC,UAAU;AACfC,YAAW;AACVC,KAAG,CAAC,MAAD,EAAS,OAAT,EAAkB,QAAlB,CADO;AAEVC,KAAG,IAFO;AAGVC,KAAG,IAHO;AAIVC,KAAG,IAJO;AAKVC,KAAG;AALO;AADI,CAAhB;AASA,IAAMC,OAAO,IAAb;;AAEA,IAAMC,MAAM,wBAAZ;AACA,IAAMC,OAAO,eAAKC,YAAL,CAAkBF,GAAlB,CAAb;AACA,IAAMG,KAAKjB,SAASe,IAAT,EAAe,EAACb,MAAM,UAAP,EAAmBgB,aAAa,KAAhC,EAAf,CAAX;AACA,IAAMC,cAAc,kBAAMA,WAA1B;AACA,IAAMC,QAAQ,IAAI,cAAIC,SAAR,CAAkBf,OAAlB,CAAd;;AAEA,IAAMgB;AAAA,oEAAa,iBAAeC,QAAf,EAAyBC,YAAzB;AAAA;AAAA;AAAA;AAAA;AAAA;AACdC,YADc;AAAA;AAAA;AAAA,aAGFN,YAAYO,OAAZ,CAAoBtB,GAApB,CAHE;;AAAA;AAGjBqB,YAHiB;;AAIjBE,cAAQC,GAAR,CAAY,qBAAZ;;AAEMC,QANW,GAMNJ,OAAOI,EAAP,CAAUxB,MAAV,CANM;AAOXyB,gBAPW,GAOED,GAAGC,UAAH,CAAc,OAAd,CAPF;AAAA;AAAA,aASGA,WAAWC,OAAX,CAAmB;AACtCC,aAAMT;AADgC,OAAnB,CATH;;AAAA;AASbU,aATa;;AAAA,WAadA,OAbc;AAAA;AAAA;AAAA;;AAchBR,aAAOS,KAAP;AAdgB,uCAeT,YAfS;;AAAA;AAiBhB,uBAAOC,KAAP,CAAa,IAAb,EAAmBF,OAAnB;;AAjBgB;AAAA,aAmBQJ,GAAGC,UAAH,CAAc,OAAd,EAAuBM,SAAvB,CAAiC;AACtDJ,aAAMT,QADgD;AAEtDc,iBAAUb;AAF4C,OAAjC,EAGnB;AACFc,UAAG,UADD;AAEFC,iBAAU,IAFR;AAGFC,4BAAqB;AAHnB,OAHmB,CAnBR;;AAAA;AAmBZC,iBAnBY;;;AA6BhB,uBAAON,KAAP,CAAa,CAAb,EAAgBM,YAAYC,aAA5B;;AAEAjB,aAAOS,KAAP;AA/BgB,uCAgCT,SAhCS;;AAAA;AAAA;AAAA;;AAAA;AAAA;AAAA;;AAmCjBP,cAAQC,GAAR;;AAnCiB;;AAsClBH,aAAOS,KAAP;;AAtCkB;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,EAAb;;AAAA;AAAA;AAAA;AAAA,GAAN;;AAyCA,IAAMS;AAAA,qEAAkB,kBAAepB,QAAf,EAAyBC,YAAzB;AAAA;AAAA;AAAA;AAAA;AAAA;AACnBC,YADmB;AAAA;AAAA;AAAA,aAGPN,YAAYO,OAAZ,CAAoBtB,GAApB,CAHO;;AAAA;AAGtBqB,YAHsB;;AAItBE,cAAQC,GAAR,CAAY,qBAAZ;;AAEMC,QANgB,GAMXJ,OAAOI,EAAP,CAAUxB,MAAV,CANW;AAAA;AAAA,aAQDwB,GAAGC,UAAH,CAAc,OAAd,EAAuBC,OAAvB,CAA+B;AACnDC,aAAMT;AAD6C,OAA/B,CARC;;AAAA;AAQlBqB,cARkB;;AAAA,WAWnBA,QAXmB;AAAA;AAAA;AAAA;;AAAA,wCAYfA,SAASP,QAZM;;AAAA;AAAA,YAehB,gBAfgB;;AAAA;AAAA;AAAA;;AAAA;AAAA;AAAA;AAAA;;AAAA;AAmBtB;;AAnBsB;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,EAAlB;;AAAA;AAAA;AAAA;AAAA,GAAN;;AAsBAvB,IAAI+B,GAAJ,CAAQ,UAAR,EAAoB,UAACC,GAAD,EAAMC,GAAN,EAAc;AACjCA,KAAIC,QAAJ,CAAa9C,KAAK+C,IAAL,CAAUC,SAAV,EAAqB,aAArB,CAAb;AACA,CAFD;;AAIApC,IAAI+B,GAAJ,CAAQ,6BAAR,EAAuC,UAASC,GAAT,EAAcC,GAAd,EAAmB;AACxDpB,SAAQC,GAAR,CAAY,cAAZ;AACAmB,KAAIC,QAAJ,CAAa9C,KAAK+C,IAAL,CAAUC,SAAV,EAAqB,kDAArB,CAAb;AACD,CAHD;;AAMAjC,GAAGkC,GAAH,CAAO,UAACC,MAAD,EAASC,IAAT,EAAkB;AACvB1B,SAAQC,GAAR,CAAY,mBAAZ;AACA,QAAOyB,MAAP;AACD,CAHD;;AAKApC,GAAGqC,EAAH,CAAM,YAAN,EAAoB,UAACF,MAAD,EAAY;AAC/BzB,SAAQC,GAAR,CAAY,kBAAZ;;AAEAwB,QAAOE,EAAP,CAAU,SAAV,EAAqB,UAACC,IAAD,EAAU;AAC9BZ,kBAAgBY,KAAKhC,QAArB,EAA+BiC,IAA/B,CAAoC,UAACnB,QAAD;AAAA,UACnC,iBAAOoB,OAAP,CAAeF,KAAKlB,QAApB,EAA8BA,QAA9B,CADmC;AAAA,GAApC,EAEGmB,IAFH,CAEQ,UAACT,GAAD,EAAS;AAChB,OAAGA,GAAH,EAAO;AACNK,WAAOM,IAAP,CAAY,SAAZ,EAAuB,EAACnC,UAAUgC,KAAKhC,QAAhB,EAAvB;AACA,IAFD,MAGK;AACJ,UAAM,oBAAN;AAA4B;AAC7B,GARD,EAQGoC,KARH,CAQS,UAACC,GAAD,EAAS;AACjB,OAAGA,OAAO,gBAAP,IAA2BA,OAAO,oBAArC,EAA0D;AACzDjC,YAAQC,GAAR,CAAYgC,GAAZ;AACAR,WAAOM,IAAP,CAAY,SAAZ,EAAuB,EAACnC,UAAUgC,KAAKhC,QAAhB,EAAvB;AACA,IAHD,MAII;AACHI,YAAQC,GAAR,CAAYgC,GAAZ;AACA;AACD,GAhBD;AAiBA,EAlBD;;AAoBAR,QAAOE,EAAP,CAAU,QAAV,EAAoB,UAASC,IAAT,EAAc;AACjC,mBAAOM,IAAP,CAAYN,KAAKlB,QAAjB,EAA2BlC,UAA3B,EAAuCqD,IAAvC,CAA4C,UAACK,IAAD;AAAA,UAC3CvC,WAAWiC,KAAKhC,QAAhB,EAA0BsC,IAA1B,CAD2C;AAAA,GAA5C,EAEGL,IAFH,CAEQ,UAACM,MAAD,EAAY;AACnBV,UAAOM,IAAP,CAAYI,MAAZ,EAAoB,EAACvC,UAAUgC,KAAKhC,QAAhB,EAApB;AACA,GAJD;AAKA,EAND;;AAQA6B,QAAOE,EAAP,CAAU,KAAV,EAAiB,UAACC,IAAD,EAAU;AAC1BtC,KAAG8C,OAAH,CAAWL,IAAX,CAAgB,QAAhB,EAA0B,EAACM,MAAM5C,MAAM6C,OAAN,CAAcV,KAAKS,IAAnB,CAAP,EAAiCE,SAAS9C,MAAM6C,OAAN,CAAcV,KAAKW,OAAnB,CAA1C,EAA1B;AACA,EAFD;;AAIAd,QAAOE,EAAP,CAAU,YAAV,EAAwB,YAAU;AACjC3B,UAAQC,GAAR,CAAY,cAAZ;AACA,EAFD;AAGA,CAtCD;;AAyCAb,KAAKoD,MAAL,CAAYtD,IAAZ,EAAkB,YAAM;AACtBc,SAAQC,GAAR,CAAY,uBAAuBf,IAAnC;AACD,CAFD",
+      "file": "app.js",
+      "sourceRoot": "/home/ubuntu/chatbox",
+      "sourcesContent": [
+        "import express from 'express';\nimport HTTP from 'http';\nvar socketio = require('socket.io');\nimport req from 'request';\nimport bcrypt from 'bcrypt';\nimport xss from 'xss';\nimport assert from 'assert';\nimport Mongo from 'mongodb';\n\nconst path = require('path');\nconst saltRounds = 10;\nconst url = 'mongodb://localhost:27017';\nconst dbName = 'chatbox';\nconst options = {\n\twhiteList: {\n\t\ta: ['href', 'title', 'target'],\n\t\tb: true,\n\t\ti: true,\n\t\tu: true,\n\t\ts: true\n\t}\n};\nconst port = 8080;\n\nconst app = express();\nconst http = HTTP.createServer(app);\nconst io = socketio(http, {path: '/chatbox', serveClient: false});\nconst MongoClient = Mongo.MongoClient;\nconst myxss = new xss.FilterXSS(options);\n\nconst InsertUser = async function(username, passwordHash){\n\tlet client;\n\ttry {\n\t\tclient = await MongoClient.connect(url);\n\t\tconsole.log(\"Connected to server\");\n\n\t\tconst db = client.db(dbName);\n\t\tconst collection = db.collection('users');\n\n\t\tlet is_user = await collection.findOne({\n\t\t\tname: username\n\t\t});\n\n\t\tif(is_user){\n\t\t\tclient.close();\n\t\t\treturn 'repeatUser';\n\t\t} else {\n\t\t\tassert.equal(null, is_user);\n\n\t\t\tlet insert_user = await db.collection('users').insertOne({\n\t\t\t\t  name: username,\n\t\t\t\t  password: passwordHash\n\t\t\t  }, {\n\t\t\t\t  w: 'majority',\n\t\t\t\t  wtimeout: 1000,\n\t\t\t\t  forceServerObjectId: true\n\t\t\t  }\n\t\t  );\n\n\t\t\tassert.equal(1, insert_user.insertedCount);\n\n\t\t\tclient.close();\n\t\t\treturn 'userSet';\n\t\t}\n\t} catch (err) {\n\t\tconsole.log(err);\n\t}\n\n\tclient.close();\n};\n\nconst GetUserPassword = async function(username, passwordHash){\n\tlet client;\n\ttry {\n\t\tclient = await MongoClient.connect(url);\n\t\tconsole.log(\"Connected to server\");\n\n\t\tconst db = client.db(dbName);\n\n\t\tlet get_user = await db.collection('users').findOne({\n\t\t\tname: username\n\t\t});\n\t\tif(get_user){\n\t\treturn get_user.password; \n\t\t}\n\t\telse{\n\t\tthrow 'incorrect user';\n\t\t}\n\t} catch(err) {\n\t\tthrow err;\n\t};\n}\n\napp.get('/chatbox', (req, res) => {\n\tres.sendFile(path.join(__dirname, '/index.html'));\n});\n\napp.get('/chatbox/resources/socketjs', function(req, res) {\n  console.log('send js file');\n  res.sendFile(path.join(__dirname, '/node_modules/socket.io-client/dist/socket.io.js'));\n});\n\n\nio.use((socket, next) => {\n  console.log('socket connection');\n  return next();\n});\n\nio.on('connection', (socket) => {\n\tconsole.log('A user connected');\n\n\tsocket.on('getUser', (data) => {\n\t\tGetUserPassword(data.username).then((password) => (\n\t\t\tbcrypt.compare(data.password, password)\n\t\t)).then((res) => {\n\t\t\tif(res){\n\t\t\t\tsocket.emit('userSet', {username: data.username})\n\t\t\t}\n\t\t\telse {\n\t\t\t\tthrow('incorrect password')};\n\t\t}).catch((err) => {\n\t\t\tif(err == 'incorrect user' || err == 'incorrect password'){\n\t\t\t\tconsole.log(err);\n\t\t\t\tsocket.emit('badUser', {username: data.username});\n\t\t\t}\n\t\t\telse{\n\t\t\t\tconsole.log(err);\n\t\t\t}\n\t\t});\n\t});\n\n\tsocket.on('signUp', function(data){\n\t\tbcrypt.hash(data.password, saltRounds).then((hash) => (\n\t\t\tInsertUser(data.username, hash)\n\t\t)).then((result) => {\n\t\t\tsocket.emit(result, {username: data.username});\n\t\t});\n\t});\n\n\tsocket.on('msg', (data) => {\n\t\tio.sockets.emit('newmsg', {user: myxss.process(data.user), message: myxss.process(data.message)});\n\t});\n\n\tsocket.on('disconnect', function(){\n\t\tconsole.log('disconnected');\n\t});\n});\n\n\nhttp.listen(port, () => {\n  console.log('listening on port ' + port);\n});\n"
+      ]
+    },
+    "mtime": 1519701198108
+  }
+}
